@@ -2,15 +2,15 @@
   "name": "decor-impress-website",
   "version": "1.0.0",
   "description": "Online business card site of Decor Impress company",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/Ggorets0dev/decor-impress-website"
   },
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "node app",
+    "dev": "nodemon app"
   },
   "author": {
     "name": "Ggorets0dev",
@@ -27,7 +27,9 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express-winston": "^4.2.0",
+    "winston": "^3.8.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
