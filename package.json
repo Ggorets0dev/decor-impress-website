@@ -1,14 +1,29 @@
 {
   "name": "decor-impress-website",
   "version": "1.0.0",
-  "description": "Online business card site of Decor Impress company ",
+  "description": "Online business card site of Decor Impress company",
   "main": "index.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ggorets0dev/decor-impress-website"
+  },
   "scripts": {
-    "run": "node index",
+    "start": "node index",
     "dev": "nodemon index"
   },
-  "author": "Ggorets0dev, RobertDeveloperBlog",
+  "author": {
+    "name": "Ggorets0dev",
+    "email": "nikgorets4work@gmail.com",
+    "url": "https://github.com/Ggorets0dev"
+  },
+  "contributors": [
+    {
+      "name": "RobertDeveloperBlog",
+      "email": "robert.askarov43@gmail.com",
+      "url": "https://github.com/RobertDeveloperBlog"
+    }
+  ],
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
