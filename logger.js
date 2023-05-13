@@ -14,7 +14,7 @@ const logger = createLogger({
         }),
         new transports.File({
             level: 'info',
-            filename: path.resolve(__dirname, 'logs', 'logsInfo.log')
+            filename: path.resolve(__dirname, 'logs', 'server.log')
         })
     ],
     format:  format.combine(
