@@ -1,7 +1,7 @@
 import logger from '../logger.js'
 
 export const accessRequestLog = (req, res, next) => {
-    logger.info(`ACCESS: ${req.method} ${req.protocol}://${req.hostname}${req.path} - ${req.ip}`)
+    logger.info(`REQUEST: ${req.method} ${req.protocol}://${req.hostname}${req.path} - ${req.ip}`)
     next()
 }
 
