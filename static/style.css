@@ -120,4 +120,79 @@ body {
     font-size: 20px;    
 }
 
+/* 4 */
+
+.arteco1-img-container {
+    position: relative;
+}
+
+.arteco1-img-container img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+.left-up-image {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.left-up-image img {
+    width: 60%;
+    height: 50%;
+}
+
+.left-down-image {
+    position: absolute;
+    top: 64%;
+    left: 8%;
+}
+
+.left-down-image img {
+    width: 29%;
+    height: 20%;
+    
+}
+
+.middle-image {
+    position: absolute;
+    top: 52%;
+    left: 35%;
+}
+
+.middle-image img {
+    width: 70%;
+    height: 70%;
+}
+
+.right-down-image {
+    position: absolute;
+    top: 65%;
+    left: 80%;
+}
+
+.right-down-image img {
+    width: 60%;
+    height: 60%;
+}
+
+.first-table {
+    position: absolute;
+    top: 15%;
+    left: 60%;
+}
+
+.first-table td, th {
+    font-size: 20px;
+    padding: 25px;
+    border: 2px solid white;
+    
+}
+
+
+
+
+
 
