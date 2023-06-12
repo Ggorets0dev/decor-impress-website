@@ -275,47 +275,47 @@ body {
 
 }
 
-.left-up-image {
+.klondike-left-up-image {
     position: absolute;
     top: 7%;
     left: 5%;
 }
 
-.left-up-image img {
+.klondike-left-up-image img {
     width: 70%;
     height: 70%;
 }
 
-.left-down-image {
+.klondike-left-down-image {
     position: absolute;
     top: 70%;
     left: 2%;
 }
 
-.left-down-image img {
+.klondike-left-down-image img {
     width: 55%;
     height: 55%;
     
 }
 
-.middle-image {
+.klondike-middle-image {
     position: absolute;
     top: 53%;
     left: 38%;
 }
 
-.middle-image img {
+.klondike-middle-image img {
     width: 100%;
     height: 100%;
 }
 
-.right-down-image {
+.klondike-right-down-image {
     position: absolute;
     top: 65%;
     left: 76%;
 }
 
-.right-down-image img {
+.klondike-right-down-image img {
     width: 80%;
     height: 80%;
 }
