@@ -262,4 +262,75 @@ body {
     
 }
 
+/* 6 page Klondike */
+
+.klondike-img-container {
+    position: relative;
+}
+
+.klondike-img-container img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+.left-up-image {
+    position: absolute;
+    top: 7%;
+    left: 5%;
+}
+
+.left-up-image img {
+    width: 70%;
+    height: 70%;
+}
+
+.left-down-image {
+    position: absolute;
+    top: 70%;
+    left: 2%;
+}
+
+.left-down-image img {
+    width: 55%;
+    height: 55%;
+    
+}
+
+.middle-image {
+    position: absolute;
+    top: 53%;
+    left: 38%;
+}
+
+.middle-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.right-down-image {
+    position: absolute;
+    top: 65%;
+    left: 76%;
+}
+
+.right-down-image img {
+    width: 80%;
+    height: 80%;
+}
+
+.third-table {
+    position: absolute;
+    top: 15%;
+    left: 60%;
+}
+
+.third-table td, th {
+    font-size: 20px;
+    padding: 25px;
+    border: 2px solid white;
+    
+}
+
 
