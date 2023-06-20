@@ -333,4 +333,73 @@ body {
     
 }
 
+/* Arteco 8 */
 
+.meteore8-img-container {
+    position: relative;
+}
+
+.meteore8-img-container img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+.meteore8-first-image {
+    position: absolute;
+    top: 4%;
+    left: 8%;
+}
+
+.meteore8-first-image img {
+    width: 40%;
+    height: 40%;
+}
+
+.meteore8-second-image {
+    position: absolute;
+    top: 4%;
+    left: 40%;
+}
+
+.meteore8-second-image img {
+    width: 40%;
+    height: 50%;
+}
+
+.meteore8-third-image {
+    position: absolute;
+    top: 47%;
+    left: 5%;
+}
+
+.meteore8-third-image img {
+    width: 70%;
+    height: 50%;
+}
+
+.meteore8-fourth-image {
+    position: absolute;
+    top: 65%;
+    left: 72%;
+    
+}
+
+.meteore8-fourth-image img {
+    width: 80%;
+    height: 80%;
+}
+
+.fourth-table {
+    position: absolute;
+    top: 15%;
+    left: 64%;
+}
+
+.fourth-table td, th {
+    font-size: 16px;
+    padding: 20px;
+    border: 2px solid white;
+    
+}
