@@ -102,7 +102,7 @@ body {
 
 .download-catalog-text {
   position: absolute;
-  top: 45%;
+  top: 47%;
   left: 38%;
   text-align: center;
 
@@ -114,8 +114,8 @@ body {
 
 .download-catalog-button {
   position: absolute;
-  top: 44%;
-  left: 55%;
+  top: 45%;
+  left: 58%;
 
   font-size: 38px;
   border-radius: 12px;
@@ -131,7 +131,7 @@ body {
 
 .catalog-names {
   position: absolute;
-  top: 65%;
+  top: 59%;
   left: 3%;
 
   color:white;
@@ -154,7 +154,7 @@ body {
 .left-up-image {
   position: absolute;
   top: 5%;
-  left: 10%;
+  left: 8%;
 }
 
 .left-up-image img {
@@ -164,7 +164,7 @@ body {
 
 .left-down-image {
   position: absolute;
-  top: 64%;
+  top: 60%;
   left: 8%;
 }
 
@@ -176,8 +176,8 @@ body {
 
 .middle-image {
   position: absolute;
-  top: 52%;
-  left: 35%;
+  top: 48%;
+  left: 32%;
 }
 
 .middle-image img {
@@ -224,7 +224,7 @@ body {
 
 .arteco7-first-image {
   position: absolute;
-  top: 4%;
+  top: 1%;
   left: 8%;
 }
 
@@ -246,8 +246,8 @@ body {
 
 .arteco7-third-image {
   position: absolute;
-  top: 55%;
-  left: 5%;
+  top: 53%;
+  left: 1%;
 }
 
 .arteco7-third-image img {
@@ -296,7 +296,7 @@ body {
 .klondike-left-up-image {
   position: absolute;
   top: 7%;
-  left: 5%;
+  left: 2%;
 }
 
 .klondike-left-up-image img {
@@ -307,7 +307,7 @@ body {
 .klondike-left-down-image {
   position: absolute;
   top: 70%;
-  left: 2%;
+  left: 1%;
 }
 
 .klondike-left-down-image img {
@@ -318,8 +318,8 @@ body {
 
 .klondike-middle-image {
   position: absolute;
-  top: 53%;
-  left: 38%;
+  top: 48%;
+  left: 35%;
 }
 
 .klondike-middle-image img {
@@ -341,7 +341,7 @@ body {
 .third-table {
   position: absolute;
   top: 15%;
-  left: 60%;
+  left: 57%;
 }
 
 .third-table td, th {
@@ -366,8 +366,8 @@ body {
 
 .meteore8-first-image {
   position: absolute;
-  top: 4%;
-  left: 8%;
+  top: 3%;
+  left: 6%;
 }
 
 .meteore8-first-image img {
@@ -437,8 +437,8 @@ body {
 
 .polistof-left-up-image {
   position: absolute;
-  top: 3%;
-  left: 8%;
+  top: 1%;
+  left: 6%;
 }
 
 .polistof-left-up-image img {
@@ -448,7 +448,7 @@ body {
 
 .polistof-left-down-image {
   position: absolute;
-  top: 54%;
+  top: 51%;
   left: 6%;
 }
 
@@ -459,8 +459,8 @@ body {
 
 .polistof-right-down-image {
   position: absolute;
-  top: 55%;
-  left: 65%;
+  top: 53%;
+  left: 63%;
 }
 
 .polistof-right-down-image img {
@@ -471,7 +471,7 @@ body {
 
 .five-table {
   position: absolute;
-  top: 4%;
+  top: 2%;
   left: 58%;
 }
 
