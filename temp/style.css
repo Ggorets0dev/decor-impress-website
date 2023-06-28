@@ -5,12 +5,12 @@ body {
 
 @font-face {
     font-family: Azkia;
-    src: url(fonts/Azkia.otf);
+    src: url(temp/fonts/Azkia.otf);
 }
 
 @font-face {
     font-family: Bookantiqua;
-    src: url(fonts/bookantiqua.ttf)
+    src: url(temp/fonts/bookantiqua.ttf)
 }
 
 .image-container {

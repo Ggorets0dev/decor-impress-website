@@ -1,7 +1,7 @@
 import express from 'express'
 import * as dotenv from 'dotenv'
 import downloadRoutes from './routes/download.js'
-import logger from './logger.js'
+import logger from './models/logger.js'
 import { accessRequestLog, errorRequestLog } from './middleware/logRequests.js'
 import { showPageNotExist } from './middleware/showPageNotExist.js'
 
