@@ -1,30 +1,34 @@
 import './App.css';
-import first_image from "./images/first_image.jpg";
+import first_image from "./images/intro/first_image.jpg";
 import about_image from "./images/about-us/Без имени-2.jpg";
-import arteco4 from "./images/catalog/arteco4.jpg";
-import shablon from "./images/shablon.jpg";
-import arteco from "./images/4/артеко.png";
-import arteco1 from "./images/4/1.png";
-import arteco3 from "./images/4/3.png";
-import arteco2 from "./images/4/2.png";
-import arteco7 from "./images/5/Без имени-3.jpg";
-import arteco5 from "./images/5/2.png";
-import arteco6 from "./images/5/артеко 7.png";
-import arteco8 from "./images/5/3.png";
-import arteco9 from "./images/5/1.png";
-import klondike2 from "./images/6-klondike/2.png";
-import klondike3 from "./images/6-klondike/3.png";
-import klondike4 from "./images/6-klondike/4.png";
-import klondike1 from "./images/6-klondike/1.png";
-import meteore8 from "./images/5/Без имени-3.jpg";
+import arteco4 from "./images/catalogue/arteco4.jpg";
+import layout2 from "./images/layouts/layout2.jpg";
+import arteco from "./images/arteco1/артеко.png";
+import arteco1 from "./images/arteco1/1.png";
+import arteco3 from "./images/arteco1/3.png";
+import arteco2 from "./images/arteco1/2.png";
+import layout1 from "./images/layouts/layout1.jpg";
+import arteco5 from "./images/arteco7/2.png";
+import arteco6 from "./images/arteco7/logo.png";
+import arteco8 from "./images/arteco7/3.png";
+import arteco9 from "./images/arteco7/1.png";
+import klondike2 from "./images/klondike/2.png";
+import klondike3 from "./images/klondike/3.png";
+import klondike4 from "./images/klondike/4.png";
+import klondike1 from "./images/klondike/1.png";
 import meteore1 from "./images/meteore8/1.png";
 import meteore2 from "./images/meteore8/2.png";
-import meteore4 from "./images/meteore8/4.png";
+import meteore4 from "./images/meteore8/logo.png";
 import meteore3 from "./images/meteore8/3.png";
-import polistof from "./images/polistof/polistof-backside.png";
 import polistof1 from "./images/polistof/1.png";
 import polistof2 from "./images/polistof/2.png";
 import polistof3 from "./images/polistof/3.png";
+import sabulaLogo from "./images/sabula2/logo.png";
+import sabula1 from "./images/sabula2/1.png";
+import sabula2 from "./images/sabula2/2.png";
+import sabula3 from "./images/sabula2/3.png";
+import sabula4 from "./images/sabula2/4.png";
+import layout3 from "./images/layouts/layout3.png";
 
 function App() {
   return (
@@ -83,7 +87,7 @@ function App() {
   </div>
   <div className="arteco1">
     <div className="arteco1-img-container">
-      <img src={shablon} alt=""/>
+      <img src={layout2} alt=""/>
         <div className="left-up-image">
           <img src={arteco} alt=""/>
         </div>
@@ -111,7 +115,7 @@ function App() {
   </div>
   <div className="arteco7">
     <div className="arteco7-img-container">
-      <img src={arteco7} alt=""/>
+      <img src={layout1} alt=""/>
         <div className="arteco7-first-image">
           <img src={arteco5} alt=""/>
         </div>
@@ -146,7 +150,7 @@ function App() {
 
   <div className="klondike">
     <div className="klondike-img-container">
-      <img src={shablon} alt=""/>
+      <img src={layout2} alt=""/>
         <div className="klondike-left-up-image">
           <img src={klondike2} alt=""/>
         </div>
@@ -178,94 +182,93 @@ function App() {
         </div>
     </div>
   </div>
-
-  <div className="meteore8">
-    <div className="meteore8-img-container">
-      <img src={meteore8} alt=""/>
-        <div className="meteore8-first-image">
-          <img src={meteore1} alt=""/>
+        <div className="meteore8">
+          <div className="meteore8-img-container">
+            <img src={layout1} alt=""/>
+            <div className="meteore8-first-image">
+              <img src={meteore1} alt=""/>
+            </div>
+            <div className="meteore8-second-image">
+              <img src={meteore2} alt=""/>
+            </div>
+            <div className="meteore8-third-image">
+              <img src={meteore4} alt=""/>
+            </div>
+            <div className="meteore8-fourth-image">
+              <img src={meteore3} alt=""/>
+            </div>
+            <div className="fourth-table">
+              <table>
+                <tr>
+                  <td rowSpan="4" className="inline2">METEORE 8<br/>(штукатурка<br/>декоративная)</td>
+                  <td rowSpan="2">1 л</td>
+                  <td rowSpan="2">3 660<br/>руб.</td>
+                  <td>12 - 13 м<sup>2</sup></td>
+                  <td>1 слой</td>
+                  <td>Эффект liscio</td>
+                </tr>
+                <tr>
+                  <td>4 - 5 м<sup>2</sup></td>
+                  <td>1 слой</td>
+                  <td>Эффект spatolato</td>
+                </tr>
+                <tr>
+                  <td rowSpan="2">4 л</td>
+                  <td rowSpan="2">11 510 <br/>руб.</td>
+                  <td>48 - 52 м<sup>2</sup></td>
+                  <td>1 слой</td>
+                  <td>Эффект liscio</td>
+                </tr>
+                <tr>
+                  <td>16 - 20 м<sup>2</sup></td>
+                  <td>1 слой</td>
+                  <td>Эффект spatolato</td>
+                </tr>
+              </table>
+            </div>
+          </div>
         </div>
-        <div className="meteore8-second-image">
-          <img src={meteore2} alt=""/>
+        <div className="polistof">
+          <div className="polistof-img-container">
+            <img src={layout3} alt=""/>
+            <div className="polistof-left-up-image">
+              <img src={polistof1} alt=""/>
+            </div>
+            <div className="polistof-left-down-image">
+              <img src={polistof2} alt=""/>
+            </div>
+            <div className="polistof-right-down-image">
+              <img src={polistof3} alt=""/>
+            </div>
+            <div className="five-table">
+              <table>
+                <tr>
+                  <td rowSpan="4" className="inline2">POLISTOF<br/>(краска<br/>декоративная)</td>
+                  <td rowSpan="4">1 л<br/>фас.</td>
+                  <td rowSpan="4">6 710<br/>руб.</td>
+                  <td>3,5 - 4 м<sup>2</sup></td>
+                  <td>2 слоя</td>
+                  <td>Эффект <br/> tessuto <br/> vellutato</td>
+                </tr>
+                <tr>
+                  <td>3,5 - 4 м<sup>2</sup></td>
+                  <td>2 слоя</td>
+                  <td>Эффект <br/> tessuto <br/> vellutato con <br/> L50</td>
+                </tr>
+                <tr>
+                  <td>12 - 14 м<sup>2</sup></td>
+                  <td>1 слой</td>
+                  <td rowSpan="2">Эффект <br/> tessuto jeans</td>
+                </tr>
+                <tr>
+                  <td>4 - 5 м<sup>2</sup></td>
+                  <td>2 слоя</td>
+                </tr>
+              </table>
+            </div>
+          </div>
         </div>
-        <div className="meteore8-third-image">
-          <img src={meteore4} alt=""/>
-        </div>
-        <div className="meteore8-fourth-image">
-          <img src={meteore3} alt=""/>
-        </div>
-        <div className="fourth-table">
-          <table>
-            <tr>
-              <td rowSpan="4" className="inline2">METEORE 8<br/>(штукатурка<br/>декоративная)</td>
-              <td rowSpan="2">1 л</td>
-              <td rowSpan="2">3 660<br/>руб.</td>
-              <td>12 - 13 м<sup>2</sup></td>
-              <td>1 слой</td>
-              <td>Эффект liscio</td>
-            </tr>
-            <tr>
-              <td>4 - 5 м<sup>2</sup></td>
-              <td>1 слой</td>
-              <td>Эффект spatolato</td>
-            </tr>
-            <tr>
-              <td rowSpan="2">4 л</td>
-              <td rowSpan="2">11 510 <br/>руб.</td>
-              <td>48 - 52 м<sup>2</sup></td>
-              <td>1 слой</td>
-              <td>Эффект liscio</td>
-            </tr>
-            <tr>
-              <td>16 - 20 м<sup>2</sup></td>
-              <td>1 слой</td>
-              <td>Эффект spatolato</td>
-            </tr>
-          </table>
-        </div>
-    </div>
-  </div>
-
-  <div className="polistof">
-    <div className="polistof-img-container">
-      <img src={polistof} alt=""/>
-        <div className="polistof-left-up-image">
-          <img src={polistof1} alt=""/>
-        </div>
-        <div className="polistof-left-down-image">
-          <img src={polistof2} alt=""/>
-        </div>
-        <div className="polistof-right-down-image">
-          <img src={polistof3} alt=""/>
-        </div>
-        <div className="five-table">
-          <table>
-            <tr>
-              <td rowSpan="4" className="inline2">POLISTOF<br/>(краска<br/>декоративная)</td>
-              <td rowSpan="4">1 л<br/>фас.</td>
-              <td rowSpan="4">6 710<br/>руб.</td>
-              <td>3,5 - 4 м<sup>2</sup></td>
-              <td>2 слоя</td>
-              <td>Эффект <br/> tessuto <br/> vellutato</td>
-            </tr>
-            <tr>
-              <td>3,5 - 4 м<sup>2</sup></td>
-              <td>2 слоя</td>
-              <td>Эффект <br/> tessuto <br/> vellutato con <br/> L50</td>
-            </tr>
-            <tr>
-              <td>12 - 14 м<sup>2</sup></td>
-              <td>1 слой</td>
-              <td rowSpan="2">Эффект <br/> tessuto jeans</td>
-            </tr>
-            <tr>
-              <td>4 - 5 м<sup>2</sup></td>
-              <td>2 слоя</td>
-            </tr>
-          </table>
-        </div>
-    </div>
-  </div></div>
+      </div>
   );
 }
 
