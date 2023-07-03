@@ -1,28 +1,28 @@
 import './App.css';
 import first_image from "./images/intro/first_image.jpg";
 import about_image from "./images/about-us/Без имени-2.jpg";
-import arteco4 from "./images/catalogue/arteco4.jpg";
+import arteco_image from "./images/catalogue/arteco4.jpg";
 import layout2 from "./images/layouts/layout2.jpg";
-import arteco from "./images/arteco1/артеко.png";
+import artecoLogo from "./images/arteco1/артеко.png";
 import arteco1 from "./images/arteco1/1.png";
-import arteco3 from "./images/arteco1/3.png";
 import arteco2 from "./images/arteco1/2.png";
+import arteco3 from "./images/arteco1/3.png";
 import layout1 from "./images/layouts/layout1.jpg";
-import arteco5 from "./images/arteco7/2.png";
-import arteco6 from "./images/arteco7/logo.png";
-import arteco8 from "./images/arteco7/3.png";
-import arteco9 from "./images/arteco7/1.png";
+import arteco7Logo from "./images/arteco7/logo.png";
+import arteco72 from "./images/arteco7/2.png";
+import arteco73 from "./images/arteco7/3.png";
+import arteco71 from "./images/arteco7/1.png";
+import klondikeLogo from "./images/klondike/logo.png";
+import klondike1 from "./images/klondike/1.png";
 import klondike2 from "./images/klondike/2.png";
 import klondike3 from "./images/klondike/3.png";
-import klondike4 from "./images/klondike/4.png";
-import klondike1 from "./images/klondike/1.png";
+import meteoreLogo from "./images/meteore8/logo.png";
 import meteore1 from "./images/meteore8/1.png";
 import meteore2 from "./images/meteore8/2.png";
-import meteore4 from "./images/meteore8/logo.png";
 import meteore3 from "./images/meteore8/3.png";
+import polistofLogo from "./images/polistof/logo.png";
 import polistof1 from "./images/polistof/1.png";
 import polistof2 from "./images/polistof/2.png";
-import polistof3 from "./images/polistof/3.png";
 import sabulaLogo from "./images/sabula2/logo.png";
 import sabula1 from "./images/sabula2/1.png";
 import sabula2 from "./images/sabula2/2.png";
@@ -34,6 +34,14 @@ import layout5 from "./images/layouts/layout5.png";
 import sabuladorLogo from "./images/sabulador/logo.png";
 import sabulador1 from "./images/sabulador/1.png";
 import sabulador2 from "./images/sabulador/2.png";
+import valpaintELogo from "./images/valpaintE/logo.png";
+import valpaintE1 from "./images/valpaintE/1.png";
+import valpaintE2 from "./images/valpaintE/2.png";
+import valpaintE3 from "./images/valpaintE/3.png";
+import valpaintILogo from "./images/valpaintI/logo.png";
+import valpaintI1 from "./images/valpaintI/1.png";
+import valpaintI2 from "./images/valpaintI/2.png";
+import valpaintI3 from "./images/valpaintI/3.png";
 
 function App() {
   return (
@@ -65,7 +73,7 @@ function App() {
   </div>
   <div className="catalog">
     <div className="catalog-img-container">
-      <img src={arteco4} alt=""/>
+      <img src={arteco_image} alt=""/>
         <div className="our-catalog-text">
           Наш каталог
         </div>
@@ -94,7 +102,7 @@ function App() {
     <div className="arteco1-img-container">
       <img src={layout2} alt=""/>
         <div className="arteco1-left-up-image">
-          <img src={arteco} alt=""/>
+          <img src={artecoLogo} alt=""/>
         </div>
         <div className="arteco1-left-down-image">
           <img src={arteco1} alt=""/>
@@ -122,16 +130,16 @@ function App() {
     <div className="arteco7-img-container">
       <img src={layout1} alt=""/>
         <div className="arteco7-first-image">
-          <img src={arteco5} alt=""/>
+          <img src={arteco71} alt=""/>
         </div>
         <div className="arteco7-second-image">
-          <img src={arteco6} alt=""/>
+          <img src={arteco7Logo} alt=""/>
         </div>
         <div className="arteco7-third-image">
-          <img src={arteco8} alt=""/>
+          <img src={arteco73} alt=""/>
         </div>
         <div className="arteco7-fourth-image">
-          <img src={arteco9} alt=""/>
+          <img src={arteco72} alt=""/>
         </div>
         <div className="arteco7-table">
           <table>
@@ -160,10 +168,10 @@ function App() {
           <img src={klondike2} alt=""/>
         </div>
         <div className="klondike-left-down-image">
-          <img src={klondike3} alt=""/>
+          <img src={klondikeLogo} alt=""/>
         </div>
         <div className="klondike-middle-image">
-          <img src={klondike4} alt=""/>
+          <img src={klondike3} alt=""/>
         </div>
         <div className="klondike-right-down-image">
           <img src={klondike1} alt=""/>
@@ -197,7 +205,7 @@ function App() {
               <img src={meteore2} alt=""/>
             </div>
             <div className="meteore8-third-image">
-              <img src={meteore4} alt=""/>
+              <img src={meteoreLogo} alt=""/>
             </div>
             <div className="meteore8-fourth-image">
               <img src={meteore3} alt=""/>
@@ -237,13 +245,13 @@ function App() {
           <div className="polistof-img-container">
             <img src={layout3} alt=""/>
             <div className="polistof-left-up-image">
-              <img src={polistof1} alt=""/>
+              <img src={polistofLogo} alt=""/>
             </div>
             <div className="polistof-left-down-image">
-              <img src={polistof2} alt=""/>
+              <img src={polistof1} alt=""/>
             </div>
             <div className="polistof-right-down-image">
-              <img src={polistof3} alt=""/>
+              <img src={polistof2} alt=""/>
             </div>
             <div className="polistof-table">
               <table>
@@ -329,6 +337,75 @@ function App() {
                   <td>5 л</td>
                   <td>21 070<br/>руб.</td>
                   <td>40 - 45 м<sup>2</sup></td>
+                  <td>1 слой</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div className="valpaintE">
+          <div className="valpaintE-img-container">
+            <img src={layout1} alt=""/>
+            <div className="valpaintE-first-image">
+              <img src={valpaintELogo} alt=""/>
+            </div>
+            <div className="valpaintE-second-image">
+              <img src={valpaintE2} alt=""/>
+            </div>
+            <div className="valpaintE-third-image">
+              <img src={valpaintE1} alt=""/>
+            </div>
+            <div className="valpaintE-fourth-image">
+              <img src={valpaintE3} alt=""/>
+            </div>
+            <div className="valpaintE-table">
+              <table>
+                <tr>
+                  <td rowSpan="3" className="inline2">SABULADOR<br/>LUX<br/>(краска<br/>декоративная)</td>
+                  <td>1 л</td>
+                  <td>5 290<br/>руб.</td>
+                  <td>14 - 16 м<sup>2</sup></td>
+                  <td>2 слоя</td>
+                  <td rowSpan="3">Эффект<br/>marmorizzato</td>
+                </tr>
+                <tr>
+                  <td>2,5 л</td>
+                  <td>11 900<br/>руб.</td>
+                  <td>35 - 40 м<sup>2</sup></td>
+                  <td>2 слоя</td>
+                </tr>
+                <tr>
+                  <td>5 л</td>
+                  <td>23 050<br/>руб.</td>
+                  <td>70 - 80 м<sup>2</sup></td>
+                  <td>2 слоя</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div className="valpaintI">
+          <div className="valpaintI-img-container">
+            <img src={layout3} alt=""/>
+            <div className="valpaintI-first-image">
+              <img src={valpaintILogo} alt=""/>
+            </div>
+            <div className="valpaintI-second-image">
+              <img src={valpaintI1} alt=""/>
+            </div>
+            <div className="valpaintI-third-image">
+              <img src={valpaintI2} alt=""/>
+            </div>
+            <div className="valpaintI-fourth-image">
+              <img src={valpaintI3} alt=""/>
+            </div>
+            <div className="valpaintI-table">
+              <table>
+                <tr>
+                  <td className="inline2">METEORE 14<br/>GROSSO<br/>(штукатурка<br/>декоративная)</td>
+                  <td>12 л</td>
+                  <td>24 270<br/>руб.</td>
+                  <td>9,6 - 12 м<sup>2</sup></td>
                   <td>1 слой</td>
                 </tr>
               </table>

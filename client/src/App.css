@@ -149,7 +149,7 @@
 
 .arteco1-left-down-image {
   position: absolute;
-  top: 60%;
+  top: 62%;
   left: 8%;
 }
 
@@ -610,3 +610,140 @@
   padding: 20px;
   border: 2px solid white;
 }
+/* valpaintE */
+
+.valpaintE-img-container img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+
+.valpaintE-img-container {
+  position: relative;
+}
+
+.valpaintE-first-image {
+  position: absolute;
+  top: 2%;
+  left: 38%;
+}
+
+.valpaintE-first-image img {
+  width: 52%;
+  height: 52%;
+}
+
+.valpaintE-second-image {
+  position: absolute;
+  top: 1%;
+  left: 3%;
+}
+
+.valpaintE-second-image img {
+  width: 35%;
+  height: 35%;
+}
+
+.valpaintE-third-image {
+  position: absolute;
+  top: 40%;
+  left: 4%;
+}
+
+.valpaintE-third-image img {
+  width: 60%;
+  height: 60%;
+}
+
+.valpaintE-fourth-image {
+  position: absolute;
+  top: 8%;
+  left: 68%;
+
+}
+
+.valpaintE-fourth-image img {
+  width: 85%;
+  height: 85%;
+}
+
+.valpaintE-table {
+  position: absolute;
+  top: 62%;
+  left: 64%;
+}
+
+.valpaintE-table td, th {
+  font-size: 18px;
+  padding: 20px;
+  border: 2px solid white;
+}
+/* valpaintI */
+
+.valpaintI-img-container img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+
+.valpaintI-img-container {
+  position: relative;
+}
+
+.valpaintI-first-image {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+}
+
+.valpaintI-first-image img {
+  width: 80%;
+  height: 80%;
+}
+
+.valpaintI-second-image {
+  position: absolute;
+  top: 54%;
+  left: 10%;
+}
+
+.valpaintI-second-image img {
+  width: 45%;
+  height: 45%;
+}
+
+.valpaintI-third-image {
+  position: absolute;
+  top: 56%;
+  left: 63%;
+}
+
+.valpaintI-third-image img {
+  width: 40%;
+  height: 40%;
+}
+
+.valpaintI-fourth-image {
+  position: absolute;
+  top: 56%;
+  left: 75%;
+
+}
+
+.valpaintI-fourth-image img {
+  width: 47%;
+  height: 47%;
+}
+
+.valpaintI-table {
+  position: absolute;
+  top: 15%;
+  left: 60%;
+}
+
+.valpaintI-table td, th {
+  font-size: 20px;
+  padding: 20px;
+  border: 2px solid white;
+}
+
