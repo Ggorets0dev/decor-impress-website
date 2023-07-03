@@ -29,6 +29,8 @@ import sabula2 from "./images/sabula2/2.png";
 import sabula3 from "./images/sabula2/3.png";
 import sabula4 from "./images/sabula2/4.png";
 import layout3 from "./images/layouts/layout3.png";
+import layout4 from "./images/layouts/layout4.png";
+import layout5 from "./images/layouts/layout5.png";
 
 function App() {
   return (
@@ -88,19 +90,19 @@ function App() {
   <div className="arteco1">
     <div className="arteco1-img-container">
       <img src={layout2} alt=""/>
-        <div className="left-up-image">
+        <div className="arteco1-left-up-image">
           <img src={arteco} alt=""/>
         </div>
-        <div className="left-down-image">
+        <div className="arteco1-left-down-image">
           <img src={arteco1} alt=""/>
         </div>
-        <div className="middle-image">
+        <div className="arteco1-middle-image">
           <img src={arteco3} alt=""/>
         </div>
-        <div className="right-down-image">
+        <div className="arteco1-right-down-image">
           <img src={arteco2} alt=""/>
         </div>
-        <div className="first-table">
+        <div className="arteco1-table">
           <table>
             <tr>
               <td className="inline2">ARTECO1<br/>(краска<br/>декоративная)</td>
@@ -262,6 +264,37 @@ function App() {
                 </tr>
                 <tr>
                   <td>4 - 5 м<sup>2</sup></td>
+                  <td>2 слоя</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div className="sabula2">
+          <div className="sabula2-img-container">
+            <img src={layout4} alt=""/>
+            <div className="sabula2-first-image">
+              <img src={sabulaLogo} alt=""/>
+            </div>
+            <div className="sabula2-second-image">
+              <img src={sabula2} alt=""/>
+            </div>
+            <div className="sabula2-third-image">
+              <img src={sabula3} alt=""/>
+            </div>
+            <div className="sabula2-fourth-image">
+              <img src={sabula1} alt=""/>
+            </div>
+            <div className="sabula2-fifth-image">
+              <img src={sabula4} alt=""/>
+            </div>
+            <div className="fifth-table">
+              <table>
+                <tr>
+                  <td className="inline2">SABULA 2<br/>(краска<br/>декоративная)</td>
+                  <td>5 л</td>
+                  <td>21120<br/>руб.</td>
+                  <td>15 - 20 м<sup>2</sup></td>
                   <td>2 слоя</td>
                 </tr>
               </table>

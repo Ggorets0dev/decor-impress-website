@@ -136,65 +136,65 @@
 
 }
 
-.left-up-image {
+.arteco1-left-up-image {
   position: absolute;
   top: 5%;
   left: 8%;
 }
 
-.left-up-image img {
+.arteco1-left-up-image img {
   width: 60%;
   height: 50%;
 }
 
-.left-down-image {
+.arteco1-left-down-image {
   position: absolute;
   top: 60%;
   left: 8%;
 }
 
-.left-down-image img {
+.arteco1-left-down-image img {
   width: 29%;
   height: 20%;
 
 }
 
-.middle-image {
+.arteco1-middle-image {
   position: absolute;
   top: 48%;
   left: 32%;
 }
 
-.middle-image img {
+.arteco1-middle-image img {
   width: 70%;
   height: 70%;
 }
 
-.right-down-image {
+.arteco1-right-down-image {
   position: absolute;
   top: 65%;
   left: 80%;
 }
 
-.right-down-image img {
+.arteco1-right-down-image img {
   width: 60%;
   height: 60%;
 }
 
-.first-table {
+.arteco1-table {
   position: absolute;
   top: 15%;
   left: 60%;
 }
 
-.first-table td, th {
+.arteco1-table td, th {
   font-size: 20px;
   padding: 25px;
   border: 2px solid white;
 
 }
 
-/* arteco 7 arteco7 page*/
+/* arteco 7 */
 
 .arteco7-img-container {
   position: relative;
@@ -512,17 +512,17 @@
 .sabula2-third-image {
   position: absolute;
   top: 47%;
-  left: 5%;
+  left: 28%;
 }
 
 .sabula2-third-image img {
-  width: 70%;
+  width: 50%;
   height: 50%;
 }
 
 .sabula2-fourth-image {
   position: absolute;
-  top: 65%;
+  top: 63%;
   left: 72%;
 
 }
@@ -530,4 +530,27 @@
 .sabula2-fourth-image img {
   width: 80%;
   height: 80%;
+}
+
+.sabula2-fifth-image {
+  position: absolute;
+  top:39%;
+  left: 3%;
+}
+
+.sabula2-fifth-image img {
+  width: 60%;
+  height: 60%;
+}
+
+.fifth-table {
+  position: absolute;
+  top: 25%;
+  left: 68%;
+}
+
+.fifth-table td, th {
+  font-size: 20px;
+  padding: 20px;
+  border: 2px solid white;
 }
