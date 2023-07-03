@@ -31,6 +31,9 @@ import sabula4 from "./images/sabula2/4.png";
 import layout3 from "./images/layouts/layout3.png";
 import layout4 from "./images/layouts/layout4.png";
 import layout5 from "./images/layouts/layout5.png";
+import sabuladorLogo from "./images/sabulador/logo.png";
+import sabulador1 from "./images/sabulador/1.png";
+import sabulador2 from "./images/sabulador/2.png";
 
 function App() {
   return (
@@ -130,7 +133,7 @@ function App() {
         <div className="arteco7-fourth-image">
           <img src={arteco9} alt=""/>
         </div>
-        <div className="second-table">
+        <div className="arteco7-table">
           <table>
             <tr>
               <td rowSpan="2" className="inline2">ARTECO7<br/>(краска<br/>декоративная)</td>
@@ -165,7 +168,7 @@ function App() {
         <div className="klondike-right-down-image">
           <img src={klondike1} alt=""/>
         </div>
-        <div className="third-table">
+        <div className="klondike-table">
           <table>
             <tr>
               <td rowSpan="2" className="inline2">KLONDIKE<br/>(краска<br/>декоративная)</td>
@@ -199,7 +202,7 @@ function App() {
             <div className="meteore8-fourth-image">
               <img src={meteore3} alt=""/>
             </div>
-            <div className="fourth-table">
+            <div className="meteore8-table">
               <table>
                 <tr>
                   <td rowSpan="4" className="inline2">METEORE 8<br/>(штукатурка<br/>декоративная)</td>
@@ -242,7 +245,7 @@ function App() {
             <div className="polistof-right-down-image">
               <img src={polistof3} alt=""/>
             </div>
-            <div className="five-table">
+            <div className="polistof-table">
               <table>
                 <tr>
                   <td rowSpan="4" className="inline2">POLISTOF<br/>(краска<br/>декоративная)</td>
@@ -288,12 +291,12 @@ function App() {
             <div className="sabula2-fifth-image">
               <img src={sabula4} alt=""/>
             </div>
-            <div className="fifth-table">
+            <div className="sabula2-table">
               <table>
                 <tr>
                   <td className="inline2">SABULA 2<br/>(краска<br/>декоративная)</td>
                   <td>5 л</td>
-                  <td>21120<br/>руб.</td>
+                  <td>21 120<br/>руб.</td>
                   <td>15 - 20 м<sup>2</sup></td>
                   <td>2 слоя</td>
                 </tr>
@@ -301,7 +304,39 @@ function App() {
             </div>
           </div>
         </div>
+        <div className="sabulador">
+          <div className="sabulador-img-container">
+            <img src={layout5} alt=""/>
+            <div className="sabulador-first-image">
+              <img src={sabuladorLogo} alt=""/>
+            </div>
+            <div className="sabulador-second-image">
+              <img src={sabulador2} alt=""/>
+            </div>
+            <div className="sabulador-third-image">
+              <img src={sabulador1} alt=""/>
+            </div>
+            <div className="sabulador-table">
+              <table>
+                <tr>
+                  <td rowSpan="2" className="inline2">SABULADOR<br/>LUX<br/>(краска<br/>декоративная)</td>
+                  <td>1 л</td>
+                  <td>4 580<br/>руб.</td>
+                  <td>8 - 9 м<sup>2</sup></td>
+                  <td>1 слой</td>
+                </tr>
+                <tr>
+                  <td>5 л</td>
+                  <td>21 070<br/>руб.</td>
+                  <td>40 - 45 м<sup>2</sup></td>
+                  <td>1 слой</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
+
   );
 }
 
