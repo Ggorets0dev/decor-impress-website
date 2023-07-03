@@ -42,6 +42,19 @@ import valpaintILogo from "./images/valpaintI/logo.png";
 import valpaintI1 from "./images/valpaintI/1.png";
 import valpaintI2 from "./images/valpaintI/2.png";
 import valpaintI3 from "./images/valpaintI/3.png";
+import valrennaLogo from "./images/valrenna/logo.png";
+import valrenna1 from  "./images/valrenna/1.png";
+import valrenna2 from  "./images/valrenna/2.png";
+import valrenna3 from  "./images/valrenna/3.png";
+import valrenna2Logo from "./images/valrenna2/logo.png";
+import valrenna21 from  "./images/valrenna2/1.png";
+import valrenna22 from  "./images/valrenna2/2.png";
+import valrenna23 from  "./images/valrenna2/3.png";
+import valsetinLogo from "./images/valsetin/logo.png";
+import valsetin1 from "./images/valsetin/1.png";
+import valsetin2 from "./images/valsetin/2.png";
+import valsetin3 from "./images/valsetin/3.png";
+import valsetin4 from "./images/valsetin/4.png";
 
 function App() {
   return (
@@ -406,6 +419,137 @@ function App() {
                   <td>12 л</td>
                   <td>24 270<br/>руб.</td>
                   <td>9,6 - 12 м<sup>2</sup></td>
+                  <td>1 слой</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div className="valrenna">
+          <div className="valrenna-img-container">
+            <img src={layout1} alt=""/>
+            <div className="valrenna-first-image">
+              <img src={valrennaLogo} alt=""/>
+            </div>
+            <div className="valrenna-second-image">
+              <img src={valrenna1} alt=""/>
+            </div>
+            <div className="valrenna-third-image">
+              <img src={valrenna2} alt=""/>
+            </div>
+            <div className="valrenna-fourth-image">
+              <img src={valrenna3} alt=""/>
+            </div>
+            <div className="valrenna-table">
+              <table>
+                <tr>
+                  <td rowSpan="3" className="inline2">VALRENNA<br/>EXTRA SOFT<br/>(краска<br/>декоративная)</td>
+                  <td>0,75 л</td>
+                  <td>7 190<br/>руб.</td>
+                  <td>5,25 - 6 м<sup>2</sup></td>
+                  <td>2 слоя</td>
+                </tr>
+                <tr>
+                  <td>2,5 л</td>
+                  <td>19 990<br/>руб.</td>
+                  <td>17,5 - 20 м<sup>2</sup></td>
+                  <td>2 слоя</td>
+                </tr>
+                <tr>
+                  <td>5 л</td>
+                  <td>36 890<br/>руб.</td>
+                  <td>35 - 40 м<sup>2</sup></td>
+                  <td>2 слоя</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div className="valrenna2">
+          <div className="valrenna2-img-container">
+            <img src={layout2} alt=""/>
+            <div className="valrenna2-first-image">
+              <img src={valrenna2Logo} alt=""/>
+            </div>
+            <div className="valrenna2-second-image">
+              <img src={valrenna21} alt=""/>
+            </div>
+            <div className="valrenna2-third-image">
+              <img src={valrenna22} alt=""/>
+            </div>
+            <div className="valrenna2-fourth-image">
+              <img src={valrenna23} alt=""/>
+            </div>
+            <div className="valrenna2-table">
+              <table>
+                <tr>
+                  <td rowSpan="3" className="inline2">VALRENNA 2<br/>(краска<br/>декоративная)</td>
+                  <td>1 л</td>
+                  <td>5 720<br/>руб.</td>
+                  <td>9 - 11 м<sup>2</sup></td>
+                  <td>2 слоя</td>
+                  <td rowSpan="3">Эффект renna</td>
+                </tr>
+                <tr>
+                  <td>2,5 л</td>
+                  <td>12 950<br/>руб.</td>
+                  <td>22,5 - 27 м<sup>2</sup></td>
+                  <td>2 слоя</td>
+                </tr>
+                <tr>
+                  <td>5 л</td>
+                  <td>23 680<br/>руб.</td>
+                  <td>45 - 55 м<sup>2</sup></td>
+                  <td>2 слоя</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div className="valsetin">
+          <div className="valsetin-img-container">
+            <img src={layout4} alt=""/>
+            <div className="valsetin-first-image">
+              <img src={valsetinLogo} alt=""/>
+            </div>
+            <div className="valsetin-second-image">
+              <img src={valsetin1} alt=""/>
+            </div>
+            <div className="valsetin-third-image">
+              <img src={valsetin2} alt=""/>
+            </div>
+            <div className="valsetin-fourth-image">
+              <img src={valsetin3} alt=""/>
+            </div>
+            <div className="valsetin-fifth-image">
+              <img src={valsetin4} alt=""/>
+            </div>
+            <div className="valsetin-table">
+              <table>
+                <tr>
+                  <td rowSpan="3" className="inline2">VALSETIN 2<br/>Col.<br/>AGENTO 700<br/>(краска<br/>декоративная)</td>
+                  <td>1 л</td>
+                  <td>6 150<br/>руб.</td>
+                  <td>7 - 9 м<sup>2</sup></td>
+                  <td>1 слой</td>
+                </tr>
+                <tr>
+                  <td>2,5 л</td>
+                  <td>14 750<br/>руб.</td>
+                  <td>17,5 - 22,5 м<sup>2</sup></td>
+                  <td>1 слой</td>
+                </tr>
+                <tr>
+                  <td>4 л</td>
+                  <td>22 800<br/>руб.</td>
+                  <td>28 - 36 м<sup>2</sup></td>
+                  <td>1 слой</td>
+                </tr>
+                <tr>
+                  <td className="inline2">VALSETIN 2<br/>Col. ORO 709<br/>(краска<br/>декоративная)</td>
+                  <td>4 л</td>
+                  <td>27 860<br/>руб.</td>
+                  <td>45 - 55 м<sup>2</sup></td>
                   <td>1 слой</td>
                 </tr>
               </table>
