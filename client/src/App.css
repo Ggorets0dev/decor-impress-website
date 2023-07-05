@@ -958,3 +958,110 @@
   padding: 20px;
   border: 2px solid white;
 }
+/* services*/
+.services-top {
+  position: relative;
+  height:60vh;
+  background-color: #c6e1e5;
+}
+
+.services-bottom {
+  position: relative;
+  height: 30vh;
+  background-color: #7a6243;
+}
+
+.services-top-text {
+  position: absolute;
+  top: 4%;
+  left: 43%;
+  text-align: center;
+
+
+  font-family: 'Azkia';
+  font-size: 8rem;
+  color: white;
+}
+
+.services-bottom-text {
+  position: absolute;
+  top:18%;
+  left:13%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  color: white;
+}
+
+.logo-oval {
+  position: absolute;
+  top: 45%;
+  left:39%;
+  width: 435px;
+  height: 200px;
+  border-radius: 50%;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 130%;
+  background-image: url(images/logo.svg); /* Optional */
+  scale: 120%;
+}
+
+.logo-oval::after {
+  content: "";
+  position: absolute;
+  top:-5%;
+  left:-2%;
+  width: 430px;
+  height: 200px;
+  border: 10px solid white;
+  border-radius: 50%;
+}
+
+.image-oval-1 {
+  position: absolute;
+  top: 20%;
+  left:58%;
+  width: 435px;
+  height: 430px;
+  border-radius: 50%;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 130%;
+  background-image: url(images/services/1.png); /* Optional */
+  scale: 80%;
+}
+
+.image-oval-1::after {
+  content: "";
+  position: absolute;
+  top:-2%;
+  left:-2%;
+  width: 430px;
+  height: 430px;
+  border: 10px solid white;
+  border-radius: 50%;
+}
+.image-oval-2 {
+  position: absolute;
+  top: 20%;
+  left:18%;
+  width: 435px;
+  height: 430px;
+  border-radius: 50%;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 130%;
+  background-image: url(images/services/2.png); /* Optional */
+  scale: 80%;
+}
+
+.image-oval-2::after {
+  content: "";
+  position: absolute;
+  top:-2%;
+  left:-2%;
+  width: 430px;
+  height: 430px;
+  border: 10px solid white;
+  border-radius: 50%;
+}

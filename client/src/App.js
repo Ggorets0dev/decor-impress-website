@@ -1,4 +1,5 @@
 import './App.css';
+import logo from "./images/logo.svg";
 import first_image from "./images/intro/first_image.jpg";
 import about_image from "./images/about-us/Без имени-2.jpg";
 import arteco_image from "./images/catalogue/arteco4.jpg";
@@ -55,6 +56,8 @@ import valsetin1 from "./images/valsetin/1.png";
 import valsetin2 from "./images/valsetin/2.png";
 import valsetin3 from "./images/valsetin/3.png";
 import valsetin4 from "./images/valsetin/4.png";
+import services1 from "./images/services/1.png";
+import services2 from "./images/services/2.png";
 
 function App() {
   return (
@@ -553,6 +556,23 @@ function App() {
                   <td>1 слой</td>
                 </tr>
               </table>
+            </div>
+          </div>
+        </div>
+        <div className="services">
+          <div className="services-top">
+            <div className="services-top-text">
+              Услуги:
+            </div>
+            <div className="image-oval-2"/>
+            <div className="image-oval-1"/>
+            <div className="logo-oval"/>
+          </div>
+          <div className="services-bottom">
+            <div className="services-bottom-text">Наша команда DECOR IMPRESS предлагает Вам услуги наших мастеров.
+              Мы успешно выполним<br/>такие задачи, как малярная работа, монтаж гипсокартона, установка напольного
+              и потолочного<br/>плинтусов. Также мы предлагаем Вам услуги наших художников, которые украсят ваш
+              интерьер<br/> картинами, основываясь на ваших индивидуальных предпочтениях!
             </div>
           </div>
         </div>
