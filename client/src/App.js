@@ -69,7 +69,7 @@ function App() {
       .then(blob => {
         const link = document.createElement("a");
         link.href = URL.createObjectURL(blob);
-        link.setAttribute("download", "Актуальные цены Valpaint.pdf");
+        link.setAttribute("download", "Актуальные цены на продукцию Valpaint.pdf");
         document.body.appendChild(link);
         link.click();
       })
