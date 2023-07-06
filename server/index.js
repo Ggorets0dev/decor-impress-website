@@ -1,20 +1,21 @@
 import express from 'express'
 import * as dotenv from 'dotenv'
-import downloadRoutes from './routes/download.js'
+import * as path from 'path'
+import downloadRouter from './routes/download.js'
 import logger from './models/logger.js'
-import { accessRequestLog, errorRequestLog } from './middleware/logRequests.js'
-import { showPageNotExist } from './middleware/showPageNotExist.js'
+import { accessRequestLog, errorRequestLog } from './middlewares/logRequests.js'
 
 dotenv.config()
 const PORT = process.env.PORT ?? 3000
+const __dirname = path.resolve()
+const STATIC_PATH = path.resolve(__dirname, 'client', 'build')
 
 const app = express()
 
 app.use(accessRequestLog)
 
-app.use(express.static('static'))
-app.use(downloadRoutes)
-app.use(showPageNotExist)
+app.use(express.static(STATIC_PATH))
+app.use('/download', downloadRouter)
 
 app.use(errorRequestLog)
 

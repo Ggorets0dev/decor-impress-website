@@ -1,4 +1,4 @@
-import logger from '../logger.js'
+import logger from '../models/logger.js'
 
 export const accessRequestLog = (req, res, next) => {
     logger.info(`REQUEST: ${req.method} ${req.protocol}://${req.hostname}${req.path} - ${req.ip}`)

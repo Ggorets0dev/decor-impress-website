@@ -1,5 +1,5 @@
 import './App.css';
-import {useState, useEffect} from 'react';
+import { useEffect, useState } from 'react'
 import logo from "./images/logo.svg";
 import first_image from "./images/intro/first_image.jpg";
 import about_image from "./images/about-us/Без имени-2.jpg";
@@ -60,15 +60,22 @@ import valsetin4 from "./images/valsetin/4.png";
 
 function App() {
 
-  const [state,setState] = useState('idle');
+  const [state, setState] = useState('idle')
 
   useEffect(() => {
-    if(state=='downloading'){
-      fetch('/download')
+    if (state === 'downloading') {
+      fetch("/download")
+      .then(res => res.blob())
+      .then(blob => {
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.setAttribute("download", "Актуальные цены Valpaint.pdf");
+        document.body.appendChild(link);
+        link.click();
+      })
       setState('idle')
     }
-  });
-
+  }, [state])
 
   return (
       <div>
@@ -104,8 +111,8 @@ function App() {
           Наш каталог
         </div>
         <div className="download-catalogue-container">
-          <div className="download-catalogue-text">Скачать {state} полный каталог:</div>
-          <button onClick={() => {setState('downloading')}} className="download-catalogue-button">Скачать</button>
+          <div className="download-catalogue-text">Скачать полный каталог:</div>
+          <button onClick={() => setState('downloading')} className="download-catalogue-button">Скачать</button>
         </div>
         <div className="catalogue-names">
           <p className="catalogue-list-name">Каталог:</p><br/>
