@@ -56,6 +56,7 @@ import valsetin1 from "./images/valsetin/1.png";
 import valsetin2 from "./images/valsetin/2.png";
 import valsetin3 from "./images/valsetin/3.png";
 import valsetin4 from "./images/valsetin/4.png";
+import contacts from "./images/contacts/background.png";
 
 function App() {
   return (
@@ -598,6 +599,24 @@ function App() {
             <div className="examples-2-image-small examples-2-image-5"/>
             <div className="examples-2-image-small examples-2-image-6"/>
             <div className="examples-2-image-small examples-2-image-7"/>
+          </div>
+        </div>
+        <div className="contacts">
+          <div className="contacts-img-container">
+            <img src={contacts} alt="" />
+            <div className="contacts-text-container">
+              <p>
+                <b>Сайт:</b> decor-impress.ru<br/>
+                <b>Электронная почта:</b> decorimpress@yandex.ru<br/>
+                <b>Телефоны:</b><br/>
+                +7 (915) 348 20 30<br/>
+                +7 (936) 617 50 55
+              </p>
+            </div>
+            <div className="contacts-top-text">
+              Наши контакты:
+            </div>
+            <img className="contacts-logo" src={logo} alt=""/>
           </div>
         </div>
       </div>
