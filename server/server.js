@@ -14,8 +14,8 @@ const app = express()
 
 app.use(accessRequestLog)
 
+app.get('/download', downloadRouter)
 app.use(express.static(STATIC_PATH))
-app.use('/download', downloadRouter)
 
 app.use(errorRequestLog)
 
