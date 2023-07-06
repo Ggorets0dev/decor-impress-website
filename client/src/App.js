@@ -61,14 +61,14 @@ import contacts from "./images/contacts/background.png";
 function App() {
   return (
       <div>
-        <div className="image-container">
+        <div className="image-container" id="main">
           <img src={first_image} alt=""/>
             <div className="text-container">
               <p>Сделайте Ваш интерьер</p>
               <p className="inline1">особенным!</p>
             </div>
         </div>
-  <div className="about-us">
+  <div className="about-us" id="about">
     <div className="second-image-container">
       <img src={about_image} alt=""/>
         <div className="second-text-container">
@@ -86,17 +86,17 @@ function App() {
         </div>
     </div>
   </div>
-  <div className="catalog">
-    <div className="catalog-img-container">
+  <div className="catalogue" id="catalogue">
+    <div className="catalogue-img-container">
       <img src={arteco_image} alt=""/>
-        <div className="our-catalog-text">
+        <div className="our-catalogue-text">
           Наш каталог
         </div>
-        <div className="download-catalog-container">
-          <div className="download-catalog-text">Скачать полный каталог:</div>
-          <button className="download-catalog-button">Скачать</button>
+        <div className="download-catalogue-container">
+          <div className="download-catalogue-text">Скачать полный каталог:</div>
+          <button className="download-catalogue-button">Скачать</button>
         </div>
-        <div className="catalog-names">
+        <div className="catalogue-names">
           Каталог:<br/>
           ARTECO 1<br/>
           ARTECO 7<br/>
@@ -558,7 +558,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="services">
+        <div className="services" id="services">
           <div className="services-top">
             <div className="services-top-text">
               Услуги:
@@ -575,7 +575,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="examples">
+        <div className="examples" id="examples">
           <div className="examples-container">
             <div className="examples-top-text">Примеры работ:</div>
             <div className="examples-image examples-image-1"/>
@@ -601,7 +601,7 @@ function App() {
             <div className="examples-2-image-small examples-2-image-7"/>
           </div>
         </div>
-        <div className="contacts">
+        <div className="contacts" id="contacts">
           <div className="contacts-img-container">
             <img src={contacts} alt="" />
             <div className="contacts-text-container">
@@ -620,7 +620,6 @@ function App() {
           </div>
         </div>
       </div>
-
   );
 }
 

@@ -62,19 +62,19 @@
 
 }
 
-/* Catalog */
+/* catalogue */
 
-.catalog-img-container img {
+.catalogue-img-container img {
   width: 100%;
   height: 90vh;
   object-fit: cover;
 }
 
-.catalog-img-container {
+.catalogue-img-container {
   position: relative;
 }
 
-.our-catalog-text {
+.our-catalogue-text {
   position: absolute;
   top: 20%;
   left: 32%;
@@ -87,7 +87,7 @@
 }
 
 
-.download-catalog-text {
+.download-catalogue-text {
   position: absolute;
   top: 47%;
   left: 38%;
@@ -99,7 +99,7 @@
   color: white;
 }
 
-.download-catalog-button {
+.download-catalogue-button {
   position: absolute;
   top: 45%;
   left: 58%;
@@ -116,7 +116,7 @@
 
 }
 
-.catalog-names {
+.catalogue-names {
   position: absolute;
   top: 59%;
   left: 3%;
