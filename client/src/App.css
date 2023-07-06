@@ -1,5 +1,6 @@
 .image-container {
   position: relative;
+  border-bottom: 10px solid white;
 }
 
 .image-container img {
@@ -42,6 +43,10 @@
 
 /* about-us */
 
+.second-image-container {
+  border-bottom: 10px solid white;
+}
+
 .second-image-container img {
   width: 100%;
   height: 90vh;
@@ -58,7 +63,7 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: 24px;
   color: white;
-  text-indent: 20px;
+  text-indent: 30px;
 
 }
 
@@ -68,6 +73,8 @@
   width: 100%;
   height: 90vh;
   object-fit: cover;
+  border-bottom: 10px solid white;
+  filter: brightness(40%);
 }
 
 .catalogue-img-container {
@@ -129,6 +136,7 @@
 
 .arteco1-img-container {
   position: relative;
+  border-bottom: 10px solid white;
 }
 
 .arteco1-img-container img{
@@ -151,13 +159,13 @@
 
 .arteco1-left-down-image {
   position: absolute;
-  top: 62%;
+  top: 64%;
   left: 8%;
 }
 
 .arteco1-left-down-image img {
-  width: 29%;
-  height: 20%;
+  width: 25%;
+  height: 25%;
 
 }
 
@@ -200,6 +208,7 @@
 
 .arteco7-img-container {
   position: relative;
+  border-bottom: 10px solid white;
 }
 
 .arteco7-img-container img {
@@ -250,8 +259,8 @@
 }
 
 .arteco7-fourth-image img {
-  width: 80%;
-  height: 80%;
+  width: 75%;
+  height: 75%;
 }
 
 .arteco7-table {
@@ -271,6 +280,7 @@
 
 .klondike-img-container {
   position: relative;
+  border-bottom: 10px solid white;
 }
 
 .klondike-img-container img{
@@ -340,17 +350,9 @@
 
 /* Meteore 8 */
 
-
-
-.meteore8-table-container td{
-  border-width: 15px;
-  border-style: solid;
-  border-collapse: collapse;
-  border-color: black;
-}
-
 .meteore8-img-container {
   position: relative;
+  border-bottom: 10px solid white;
 }
 
 .meteore8-img-container img {
@@ -424,10 +426,12 @@
   width: 100%;
   height: 90vh;
   object-fit: cover;
+
 }
 
 .polistof-img-container {
   position: relative;
+  border-bottom: 10px solid white;
 }
 
 
@@ -460,8 +464,8 @@
 }
 
 .polistof-right-down-image img {
-  width: 80%;
-  height: 80%;
+  width: 75%;
+  height: 75%;
 }
 
 
@@ -487,6 +491,7 @@
 
 .sabula2-img-container {
   position: relative;
+  border-bottom: 10px solid white;
 }
 
 .sabula2-first-image {
@@ -507,8 +512,8 @@
 }
 
 .sabula2-second-image img {
-  width: 40%;
-  height: 50%;
+  width: 35%;
+  height: 35%;
 }
 
 .sabula2-third-image {
@@ -518,8 +523,8 @@
 }
 
 .sabula2-third-image img {
-  width: 50%;
-  height: 50%;
+  width: 45%;
+  height: 45%;
 }
 
 .sabula2-fourth-image {
@@ -530,8 +535,8 @@
 }
 
 .sabula2-fourth-image img {
-  width: 80%;
-  height: 80%;
+  width: 75%;
+  height: 75%;
 }
 
 .sabula2-fifth-image {
@@ -541,8 +546,8 @@
 }
 
 .sabula2-fifth-image img {
-  width: 60%;
-  height: 60%;
+  width: 55%;
+  height: 55%;
 }
 
 .sabula2-table {
@@ -566,6 +571,7 @@
 
 .sabulador-img-container {
   position: relative;
+  border-bottom: 10px solid white;
 }
 
 .sabulador-first-image {
@@ -586,8 +592,8 @@
 }
 
 .sabulador-second-image img {
-  width: 50%;
-  height: 50%;
+  width: 45%;
+  height: 45%;
 }
 
 .sabulador-third-image {
@@ -597,8 +603,8 @@
 }
 
 .sabulador-third-image img {
-  width: 50%;
-  height: 50%;
+  width: 45%;
+  height: 45%;
 }
 
 .sabulador-table {
@@ -622,6 +628,7 @@
 
 .valpaintE-img-container {
   position: relative;
+  border-bottom: 10px solid white;
 }
 
 .valpaintE-first-image {
@@ -642,13 +649,13 @@
 }
 
 .valpaintE-second-image img {
-  width: 35%;
-  height: 35%;
+  width: 33%;
+  height: 33%;
 }
 
 .valpaintE-third-image {
   position: absolute;
-  top: 40%;
+  top: 37%;
   left: 4%;
 }
 
@@ -671,7 +678,7 @@
 
 .valpaintE-table {
   position: absolute;
-  top: 62%;
+  top: 61.5%;
   left: 64%;
 }
 
@@ -690,22 +697,23 @@
 
 .valpaintI-img-container {
   position: relative;
+  border-bottom: 10px solid white;
 }
 
 .valpaintI-first-image {
   position: absolute;
-  top: 2%;
-  left: 5%;
+  top: 1%;
+  left: 8%;
 }
 
 .valpaintI-first-image img {
-  width: 80%;
-  height: 80%;
+  width: 75%;
+  height: 75%;
 }
 
 .valpaintI-second-image {
   position: absolute;
-  top: 54%;
+  top: 52%;
   left: 10%;
 }
 
@@ -758,6 +766,7 @@
 
 .valrenna-img-container {
   position: relative;
+  border-bottom: 10px solid white;
 }
 
 .valrenna-first-image {
@@ -773,7 +782,7 @@
 
 .valrenna-second-image {
   position: absolute;
-  top: 39%;
+  top: 37%;
   left: 5%;
 }
 
@@ -795,13 +804,13 @@
 
 .valrenna-fourth-image {
   position: absolute;
-  top: 2%;
+  top: 1%;
   left: 39%;
 }
 
 .valrenna-fourth-image img {
-  width: 45%;
-  height: 45%;
+  width: 43%;
+  height: 43%;
 }
 
 .valrenna-table {
@@ -825,6 +834,7 @@
 
 .valrenna2-img-container {
   position: relative;
+  border-bottom: 10px solid white;
 }
 
 .valrenna2-first-image {
@@ -851,7 +861,7 @@
 
 .valrenna2-third-image {
   position: absolute;
-  top: 65%;
+  top: 64%;
   left: 4%;
 }
 
@@ -892,6 +902,7 @@
 
 .valsetin-img-container {
   position: relative;
+  border-bottom: 10px solid white;
 }
 
 .valsetin-first-image {
@@ -971,7 +982,7 @@
   position: relative;
   height: 30vh;
   background-color: #7a6243;
-  border-bottom: 5px solid white;
+  border-bottom: 10px solid white;
 }
 
 .services-top-text {
@@ -994,7 +1005,7 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: 2rem;
   color: white;
-  text-indent: 30px;
+  text-indent: 40px;
 }
 
 .logo-oval {
@@ -1076,7 +1087,7 @@
   position: relative;
   height:90vh;
   background-color: #c6e1e5;
-  border-bottom: 5px solid white;
+  border-bottom: 15px solid white;
 }
 
 .examples-image {
@@ -1178,7 +1189,7 @@
   position: relative;
   height:90vh;
   background-color: #c6e1e5;
-  border-bottom: 5px solid white;
+  border-bottom: 15px solid white;
 }
 
 .examples-2-image {
@@ -1266,20 +1277,18 @@
 }
 /* contacts */
 
-.contacts-img-container img {
-  width: 100%;
-  height: 90vh;
-  object-fit: cover;
-}
-
 .contacts-img-container {
   position: relative;
+  background: url("./images/contacts/background.png");
+  height: 90vh;
+  width: 100%;
+  border-bottom: 15px solid white;
 }
 
 .contacts-top-text {
   position: absolute;
   top: 4%;
-  left: 65%;
+  left: 5%;
   text-align: center;
 
 
@@ -1292,8 +1301,8 @@
   position: absolute;
   text-align: left;
   top: 35%;
-  left: 65%;
-  max-width: 28%;
+  left: 5%;
+  max-width: 80%;
 
   font-family: 'Times New Roman', Times, serif;
   font-size: 26px;
@@ -1302,8 +1311,16 @@
 
 .contacts-logo {
   position: absolute;
-  top:35%;
-  left:32%;
-  scale:20%;
+  top:60%;
+  left:2%;
+  scale:60%
+}
+
+.contacts-side-container {
+  position: absolute;
+  background-color: #7a6243;
+  width: 35%;
+  height: 100%;
+  left:65%;
 }
 

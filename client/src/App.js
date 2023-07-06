@@ -603,20 +603,21 @@ function App() {
         </div>
         <div className="contacts" id="contacts">
           <div className="contacts-img-container">
-            <img src={contacts} alt="" />
-            <div className="contacts-text-container">
-              <p>
-                <b>Сайт:</b> decor-impress.ru<br/>
-                <b>Электронная почта:</b> decorimpress@yandex.ru<br/>
-                <b>Телефоны:</b><br/>
-                +7 (915) 348 20 30<br/>
-                +7 (936) 617 50 55
-              </p>
+            <div className="contacts-side-container">
+              <div className="contacts-text-container">
+                <p>
+                  <b>Сайт:</b> decor-impress.ru<br/>
+                  <b>Электронная почта:</b> decorimpress@yandex.ru<br/>
+                  <b>Телефоны:</b><br/>
+                  +7(915)-348-20-30<br/>
+                  +7(936)-617-50-55
+                </p>
+              </div>
+              <div className="contacts-top-text">
+                Наши контакты:
+              </div>
+              <img className="contacts-logo" src={logo} alt=""/>
             </div>
-            <div className="contacts-top-text">
-              Наши контакты:
-            </div>
-            <img className="contacts-logo" src={logo} alt=""/>
           </div>
         </div>
       </div>
