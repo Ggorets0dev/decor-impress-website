@@ -9,11 +9,7 @@
   object-fit: cover;
 }
 
-.text-container {
-  position: absolute;
-  top: 20%;
-  left: 35%;
-  text-align: center;
+.main-header {
   transform: translate(-45%, -50%);
 
   font-family: 'Azkia';
@@ -39,6 +35,24 @@
   font-size: 18px;
   margin-left: 300px;
   margin-top: 40px;
+}
+
+.main-header-1 {
+  position: absolute;
+  top:11%;
+  left:27%;
+}
+
+.main-header-2 {
+  position: absolute;
+  top:19%;
+  left:50.5%;
+}
+
+.main-header-3 {
+  position: absolute;
+  top:31%;
+  left:55%;
 }
 
 /* about-us */
@@ -218,12 +232,12 @@
 .arteco1-middle-image {
   position: absolute;
   top: 48%;
-  left: 32%;
+  left: 32.5%;
 }
 
 .arteco1-middle-image img {
-  width: 70%;
-  height: 70%;
+  width: 75%;
+  height: 75%;
 }
 
 .arteco1-right-down-image {
@@ -366,8 +380,8 @@
 }
 
 .klondike-middle-image img {
-  width: 100%;
-  height: 100%;
+  width: 110%;
+  height: 110%;
 }
 
 .klondike-right-down-image {
@@ -494,7 +508,7 @@
 
 .polistof-left-down-image {
   position: absolute;
-  top: 51%;
+  top: 53%;
   left: 6%;
 }
 
@@ -554,12 +568,12 @@
 .sabula2-second-image {
   position: absolute;
   top: 2%;
-  left: 40%;
+  left: 39%;
 }
 
 .sabula2-second-image img {
-  width: 35%;
-  height: 35%;
+  width: 40%;
+  height: 40%;
 }
 
 .sabula2-third-image {
@@ -644,13 +658,13 @@
 
 .sabulador-third-image {
   position: absolute;
-  top: 52%;
-  left: 8%;
+  top: 48%;
+  left: 3%;
 }
 
 .sabulador-third-image img {
-  width: 45%;
-  height: 45%;
+  width: 60%;
+  height: 60%;
 }
 
 .sabulador-table {
@@ -701,7 +715,7 @@
 
 .valpaintE-third-image {
   position: absolute;
-  top: 37%;
+  top: 39%;
   left: 4%;
 }
 
@@ -748,7 +762,7 @@
 
 .valpaintI-first-image {
   position: absolute;
-  top: 1%;
+  top: 3%;
   left: 8%;
 }
 

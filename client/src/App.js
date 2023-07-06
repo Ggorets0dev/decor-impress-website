@@ -1,4 +1,5 @@
 import './App.css';
+import {useState, useEffect} from 'react';
 import logo from "./images/logo.svg";
 import first_image from "./images/intro/first_image.jpg";
 import about_image from "./images/about-us/Без имени-2.jpg";
@@ -58,14 +59,24 @@ import valsetin3 from "./images/valsetin/3.png";
 import valsetin4 from "./images/valsetin/4.png";
 
 function App() {
+
+  const [state,setState] = useState('idle');
+
+  useEffect(() => {
+    if(state=='downloading'){
+      fetch('/download')
+      setState('idle')
+    }
+  });
+
+
   return (
       <div>
         <div className="image-container" id="main">
           <img src={first_image} alt=""/>
-            <div className="text-container">
-              <p>Сделайте Ваш интерьер</p>
-              <p className="inline1">особенным!</p>
-            </div>
+          <p className="main-header main-header-1">Сделайте</p>
+          <p className="main-header main-header-2">Ваш интерьер</p>
+          <p className="main-header main-header-3">особенным!</p>
         </div>
   <div className="about-us" id="about">
     <div className="second-image-container">
@@ -93,8 +104,8 @@ function App() {
           Наш каталог
         </div>
         <div className="download-catalogue-container">
-          <div className="download-catalogue-text">Скачать полный каталог:</div>
-          <button className="download-catalogue-button">Скачать</button>
+          <div className="download-catalogue-text">Скачать {state} полный каталог:</div>
+          <button onClick={() => {setState('downloading')}} className="download-catalogue-button">Скачать</button>
         </div>
         <div className="catalogue-names">
           <p className="catalogue-list-name">Каталог:</p><br/>
