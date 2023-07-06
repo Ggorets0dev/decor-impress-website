@@ -35,6 +35,7 @@
 }
 
 .inline4 {
+  font-size: 18px;
   margin-left: 300px;
   margin-top: 40px;
 }
@@ -57,6 +58,7 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: 24px;
   color: white;
+  text-indent: 20px;
 
 }
 
@@ -969,6 +971,7 @@
   position: relative;
   height: 30vh;
   background-color: #7a6243;
+  border-bottom: 5px solid white;
 }
 
 .services-top-text {
@@ -981,6 +984,7 @@
   font-family: 'Azkia';
   font-size: 8rem;
   color: white;
+  text-shadow: gray 8px 8px 8px;
 }
 
 .services-bottom-text {
@@ -990,6 +994,7 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: 2rem;
   color: white;
+  text-indent: 30px;
 }
 
 .logo-oval {
@@ -1027,7 +1032,7 @@
   background-position-x: center;
   background-position-y: center;
   background-size: 130%;
-  background-image: url(images/services/1.png); /* Optional */
+  background-image: url(images/services/2.png); /* Optional */
   scale: 80%;
 }
 
@@ -1051,7 +1056,7 @@
   background-position-x: center;
   background-position-y: center;
   background-size: 130%;
-  background-image: url(images/services/2.png); /* Optional */
+  background-image: url(images/services/1.png); /* Optional */
   scale: 80%;
 }
 
@@ -1064,4 +1069,198 @@
   height: 430px;
   border: 10px solid white;
   border-radius: 50%;
+}
+/* examples */
+
+.examples-container {
+  position: relative;
+  height:90vh;
+  background-color: #c6e1e5;
+  border-bottom: 5px solid white;
+}
+
+.examples-image {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  scale:60%;
+}
+
+.examples-image::after {
+  content: "";
+  position: absolute;
+  top:-7%;
+  left:-5%;
+  border: 20px solid white;
+  width: 400px;
+  height: 300px;
+  border-radius: 5%;
+}
+
+.examples-image-1 {
+  top:30%;
+  left:5%;
+  background-image: url(images/examples/1.png);
+}
+
+.examples-image-2 {
+  top:30%;
+  left:22%;
+  background-image: url(images/examples/2.png);
+}
+
+.examples-image-3 {
+  top:30%;
+  left:39%;
+  background-image: url(images/examples/3.png);
+}
+
+.examples-image-4 {
+  top:30%;
+  left:56%;
+  background-image: url(images/examples/4.png);
+}
+
+.examples-image-5 {
+  top:30%;
+  left:73%;
+  background-image: url(images/examples/5.png);
+}
+
+.examples-image-6 {
+  top:60%;
+  left:5%;
+  background-image: url(images/examples/6.png);
+}
+
+.examples-image-7 {
+  top:60%;
+  left:22%;
+  background-image: url(images/examples/7.png);
+}
+
+.examples-image-8 {
+  top:60%;
+  left:39%;
+  background-image: url(images/examples/8.png);
+}
+
+.examples-image-9 {
+  top:60%;
+  left:56%;
+  background-image: url(images/examples/9.png);
+}
+
+.examples-image-10 {
+  top:60%;
+  left:73%;
+  background-image: url(images/examples/10.png);
+}
+
+.examples-top-text {
+  position: absolute;
+  top: 4%;
+  left: 35%;
+  text-align: center;
+
+
+  font-family: 'Azkia';
+  font-size: 10rem;
+  color: white;
+  text-shadow: gray 8px 8px 8px;
+}
+/* examples-2 */
+
+.examples-2-container {
+  position: relative;
+  height:90vh;
+  background-color: #c6e1e5;
+  border-bottom: 5px solid white;
+}
+
+.examples-2-image {
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  scale:60%;
+}
+
+.examples-2-image::after {
+  content: "";
+  position: absolute;
+  top:-3%;
+  left:-5%;
+  border: 20px solid white;
+  width: 400px;
+  height: 600px;
+  border-radius: 5%;
+}
+
+.examples-2-image-1 {
+  top:3%;
+  left:10%;
+  background-image: url(images/examples/11.png);
+}
+
+.examples-2-image-2 {
+  top:3%;
+  left:30%;
+  background-image: url(images/examples/12.png);
+}
+
+.examples-2-image-3 {
+  top:3%;
+  left:50%;
+  background-image: url(images/examples/13.png);
+}
+
+.examples-2-image-4 {
+  top:3%;
+  left:70%;
+  background-image: url(images/examples/14.png);
+}
+
+.examples-2-image-small {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  scale:60%;
+}
+
+.examples-2-image-small::after {
+  content: "";
+  position: absolute;
+  top:-7%;
+  left:-5%;
+  border: 20px solid white;
+  width: 400px;
+  height: 300px;
+  border-radius: 5%;
+}
+
+.examples-2-image-5 {
+  top:65%;
+  left:20%;
+  background-image: url(images/examples/15.png);
+}
+
+.examples-2-image-6 {
+  top:65%;
+  left:40%;
+  background-image: url(images/examples/16.png);
+}
+
+.examples-2-image-7 {
+  top:65%;
+  left:60%;
+  background-image: url(images/services/1.png);
 }

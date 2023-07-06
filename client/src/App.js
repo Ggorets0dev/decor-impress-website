@@ -56,8 +56,6 @@ import valsetin1 from "./images/valsetin/1.png";
 import valsetin2 from "./images/valsetin/2.png";
 import valsetin3 from "./images/valsetin/3.png";
 import valsetin4 from "./images/valsetin/4.png";
-import services1 from "./images/services/1.png";
-import services2 from "./images/services/2.png";
 
 function App() {
   return (
@@ -574,6 +572,32 @@ function App() {
               и потолочного<br/>плинтусов. Также мы предлагаем Вам услуги наших художников, которые украсят ваш
               интерьер<br/> картинами, основываясь на ваших индивидуальных предпочтениях!
             </div>
+          </div>
+        </div>
+        <div className="examples">
+          <div className="examples-container">
+            <div className="examples-top-text">Примеры работ:</div>
+            <div className="examples-image examples-image-1"/>
+            <div className="examples-image examples-image-2"/>
+            <div className="examples-image examples-image-3"/>
+            <div className="examples-image examples-image-4"/>
+            <div className="examples-image examples-image-5"/>
+            <div className="examples-image examples-image-6"/>
+            <div className="examples-image examples-image-7"/>
+            <div className="examples-image examples-image-8"/>
+            <div className="examples-image examples-image-9"/>
+            <div className="examples-image examples-image-10"/>
+          </div>
+        </div>
+        <div className="examples-2">
+          <div className="examples-2-container">
+            <div className="examples-2-image examples-2-image-1"/>
+            <div className="examples-2-image examples-2-image-2"/>
+            <div className="examples-2-image examples-2-image-3"/>
+            <div className="examples-2-image examples-2-image-4"/>
+            <div className="examples-2-image-small examples-2-image-5"/>
+            <div className="examples-2-image-small examples-2-image-6"/>
+            <div className="examples-2-image-small examples-2-image-7"/>
           </div>
         </div>
       </div>
