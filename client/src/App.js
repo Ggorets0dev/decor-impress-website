@@ -56,7 +56,6 @@ import valsetin1 from "./images/valsetin/1.png";
 import valsetin2 from "./images/valsetin/2.png";
 import valsetin3 from "./images/valsetin/3.png";
 import valsetin4 from "./images/valsetin/4.png";
-import contacts from "./images/contacts/background.png";
 
 function App() {
   return (
@@ -84,6 +83,7 @@ function App() {
             мастера сделают всё, чтобы все Ваши мечты стали частью Вашей жизни!</p>
           <p className="inline4">DECOR IMPRESS</p>
         </div>
+      <a href="#contacts" className="place-order-link"><button className="place-order-button">Сделать заказ</button></a>
     </div>
   </div>
   <div className="catalogue" id="catalogue">
@@ -97,23 +97,26 @@ function App() {
           <button className="download-catalogue-button">Скачать</button>
         </div>
         <div className="catalogue-names">
-          Каталог:<br/>
-          ARTECO 1<br/>
-          ARTECO 7<br/>
-          KLONDIKE<br/>
-          METEORITE 8<br/>
-          POLISTOF<br/>
-          SABULA 2<br/>
-          SABULADOR<br/>
-          VALPAINT E-VOLUTION<br/>
-          VALPAINT I-BETON<br/>
-          VALRENNA<br/>
-          VALRENNA 2<br/>
-          VALSETIN 2
+          <p className="catalogue-list-name">Каталог:</p><br/>
+          <ul className="catalogue-list">
+            <li><a href="#arteco1">ARTECO 1</a></li>
+            <li><a href="#arteco7">ARTECO 7</a></li>
+            <li><a href="#klondike">KLONDIKE</a></li>
+            <li><a href="#meteore8">METEORE 8</a></li>
+            <li><a href="#polistof">POLISTOF</a></li>
+            <li><a href="#sabula2">SABULA 2</a></li>
+            <li><a href="#sabulador">SABULADOR</a></li>
+            <li><a href="#valpaintE">VALPAINT E-VOLUTION</a></li>
+            <li><a href="#valpaintI">VALPAINT I-BETON</a></li>
+            <li><a href="#valrenna">VALRENNA</a></li>
+            <li><a href="#valrenna2">VALRENNA 2</a></li>
+            <li><a href="#valsetin">VALSETIN</a></li>
+          </ul>
+
         </div>
     </div>
   </div>
-  <div className="arteco1">
+  <div className="arteco1" id="arteco1">
     <div className="arteco1-img-container">
       <img src={layout2} alt=""/>
         <div className="arteco1-left-up-image">
@@ -141,7 +144,7 @@ function App() {
         </div>
     </div>
   </div>
-  <div className="arteco7">
+  <div className="arteco7" id="arteco7">
     <div className="arteco7-img-container">
       <img src={layout1} alt=""/>
         <div className="arteco7-first-image">
@@ -175,8 +178,7 @@ function App() {
         </div>
     </div>
   </div>
-
-  <div className="klondike">
+  <div className="klondike" id="klondike">
     <div className="klondike-img-container">
       <img src={layout2} alt=""/>
         <div className="klondike-left-up-image">
@@ -210,7 +212,7 @@ function App() {
         </div>
     </div>
   </div>
-        <div className="meteore8">
+        <div className="meteore8" id="meteore8">
           <div className="meteore8-img-container">
             <img src={layout1} alt=""/>
             <div className="meteore8-first-image">
@@ -256,7 +258,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="polistof">
+        <div className="polistof" id="polistof">
           <div className="polistof-img-container">
             <img src={layout3} alt=""/>
             <div className="polistof-left-up-image">
@@ -296,7 +298,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="sabula2">
+        <div className="sabula2" id="sabula2">
           <div className="sabula2-img-container">
             <img src={layout4} alt=""/>
             <div className="sabula2-first-image">
@@ -327,7 +329,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="sabulador">
+        <div className="sabulador" id="sabulador">
           <div className="sabulador-img-container">
             <img src={layout5} alt=""/>
             <div className="sabulador-first-image">
@@ -358,7 +360,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="valpaintE">
+        <div className="valpaintE" id="valpaintE">
           <div className="valpaintE-img-container">
             <img src={layout1} alt=""/>
             <div className="valpaintE-first-image">
@@ -399,7 +401,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="valpaintI">
+        <div className="valpaintI" id="valpaintI">
           <div className="valpaintI-img-container">
             <img src={layout3} alt=""/>
             <div className="valpaintI-first-image">
@@ -427,7 +429,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="valrenna">
+        <div className="valrenna" id="valrenna">
           <div className="valrenna-img-container">
             <img src={layout1} alt=""/>
             <div className="valrenna-first-image">
@@ -467,7 +469,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="valrenna2">
+        <div className="valrenna2" id="valrenna2">
           <div className="valrenna2-img-container">
             <img src={layout2} alt=""/>
             <div className="valrenna2-first-image">
@@ -508,7 +510,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="valsetin">
+        <div className="valsetin" id="valsetin">
           <div className="valsetin-img-container">
             <img src={layout4} alt=""/>
             <div className="valsetin-first-image">
@@ -606,11 +608,11 @@ function App() {
             <div className="contacts-side-container">
               <div className="contacts-text-container">
                 <p>
-                  <b>Сайт:</b> decor-impress.ru<br/>
-                  <b>Электронная почта:</b> decorimpress@yandex.ru<br/>
+                  <b>Электронная почта:</b><br/>
+                  decorimpress@yandex.ru<br/><br/>
                   <b>Телефоны:</b><br/>
-                  +7(915)-348-20-30<br/>
-                  +7(936)-617-50-55
+                  +7 (915) 348-20-30<br/>
+                  +7 (936) 617-50-55
                 </p>
               </div>
               <div className="contacts-top-text">
