@@ -1,6 +1,6 @@
-import logger from '../logger.js'
+import logger from '../models/logger.js'
 
-export const showPageNotExist = (req, res, next) => {
+export const redirectPageNotExist = (req, res, next) => {
     logger.error(`NOT EXIST: ${req.method} ${req.protocol}://${req.hostname}${req.path} - ${req.ip}`)
     res.redirect('/')
     next()
