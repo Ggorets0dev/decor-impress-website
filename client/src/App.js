@@ -78,7 +78,7 @@ function App() {
   }, [state])
 
   return (
-      <div>
+      <div className="fixed-wrapper">
         <div className="image-container" id="main">
           <img src={first_image} alt=""/>
           <p className="main-header main-header-1">Сделайте</p>
