@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "Online business card site of Decor Impress company",
   "main": "app.js",
-  "type": "module",
+  "type": "commonjs",
   "repository": {
     "type": "git",
     "url": "https://github.com/Ggorets0dev/decor-impress-website"
   },
   "scripts": {
-    "start": "node server/server.js",
-    "dev": "nodemon server/server.js"
+    "start": "node entry.js",
+    "dev": "nodemon entry.js"
   },
   "author": {
     "name": "Ggorets0dev",
