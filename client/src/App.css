@@ -64,6 +64,7 @@
 
 .second-image-container {
   border-bottom: 10px solid white;
+  position: relative;
 }
 
 .second-image-container img {
@@ -75,7 +76,7 @@
 .second-text-container {
   position: absolute;
   text-align: left;
-  top: 125%; /* Надо будет исправить и добавить position: relative */
+  top: 25%; /* Надо будет исправить и добавить position: relative */
   left: 72%;
   max-width: 25%;
 
@@ -88,7 +89,7 @@
 
 .place-order-button {
   position: absolute;
-  top: 177%;
+  top: 77%;
   left: 78%;
 
   font-size: 38px;

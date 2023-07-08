@@ -79,11 +79,13 @@ function App() {
 
   return (
       <div className="fixed-wrapper">
+        <div className="intro">
         <div className="image-container" id="main">
           <img src={first_image} alt=""/>
           <p className="main-header main-header-1">Сделайте</p>
           <p className="main-header main-header-2">Ваш интерьер</p>
           <p className="main-header main-header-3">особенным!</p>
+        </div>
         </div>
   <div className="about-us" id="about">
     <div className="second-image-container">
