@@ -1,11 +1,34 @@
 .fixed-wrapper {
-  min-width: 1920px;
+  min-width: 1900px;
   margin: 0 auto;
 }
 
-.image-container {
+.fixed-container {
+    min-height: 972px;
+}
+
+.fixed-container>img{
+  min-height: 957px;
+}
+
+.fixed-container-1 {
+    min-height: 1080px;
+}
+
+.fixed-container-1>img{
+  min-height: 1065px;
+}
+
+.intro {
   position: relative;
-  border-bottom: 10px solid white;
+  width: 100%;
+  height: 100vh;
+}
+
+.image-container {
+    position: relative;
+    border-bottom: 10px solid white;
+    min-height: 100vh;
 }
 
 .image-container img {
@@ -61,6 +84,11 @@
 }
 
 /* about-us */
+.about-us {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
 
 .second-image-container {
   border-bottom: 10px solid white;
@@ -114,6 +142,12 @@
 }
 
 /* catalogue */
+
+.catalogue {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
 
 .catalogue-img-container img {
   width: 100%;
@@ -200,6 +234,12 @@
 
 /* arteco1 */
 
+.arteco1 {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
+
 .arteco1-img-container {
   position: relative;
   border-bottom: 10px solid white;
@@ -272,6 +312,12 @@
 
 /* arteco 7 */
 
+.arteco7 {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
+
 .arteco7-img-container {
   position: relative;
   border-bottom: 10px solid white;
@@ -342,7 +388,13 @@
 
 }
 
-/* 6 page Klondike */
+/* klondike */
+
+.klondike {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
 
 .klondike-img-container {
   position: relative;
@@ -416,6 +468,12 @@
 
 /* Meteore 8 */
 
+.meteore8 {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
+
 .meteore8-img-container {
   position: relative;
   border-bottom: 10px solid white;
@@ -488,6 +546,12 @@
 
 /* polistof */
 
+.polistof {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
+
 .polistof-img-container img {
   width: 100%;
   height: 90vh;
@@ -548,6 +612,12 @@
 
 }
 /* sabula2 */
+
+.sabula2 {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
 
 .sabula2-img-container img {
   width: 100%;
@@ -629,6 +699,12 @@
 }
 /* sabulador */
 
+.sabulador {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
+
 .sabulador-img-container img {
   width: 100%;
   height: 90vh;
@@ -685,6 +761,11 @@
   border: 2px solid white;
 }
 /* valpaintE */
+.valpaintE {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
 
 .valpaintE-img-container img {
   width: 100%;
@@ -754,6 +835,11 @@
   border: 2px solid white;
 }
 /* valpaintI */
+.valpaintI {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
 
 .valpaintI-img-container img {
   width: 100%;
@@ -824,6 +910,12 @@
 }
 /* valrenna */
 
+.valrenna {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
+
 .valrenna-img-container img {
   width: 100%;
   height: 90vh;
@@ -892,6 +984,12 @@
 }
 /* valrenna 2 */
 
+.valrenna2 {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
+
 .valrenna2-img-container img {
   width: 100%;
   height: 90vh;
@@ -959,6 +1057,11 @@
   border: 2px solid white;
 }
 /* valsetin */
+.valsetin {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
 
 .valsetin-img-container img {
   width: 100%;
@@ -1038,10 +1141,17 @@
   border: 2px solid white;
 }
 /* services*/
+.services {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
+
 .services-top {
   position: relative;
   height:60vh;
   background-color: #c6e1e5;
+  min-height: 648px;
 }
 
 .services-bottom {
@@ -1049,6 +1159,7 @@
   height: 30vh;
   background-color: #7a6243;
   border-bottom: 10px solid white;
+  min-height: 309px;
 }
 
 .services-top-text {
@@ -1149,11 +1260,18 @@
 }
 /* examples */
 
+.examples {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
+
 .examples-container {
   position: relative;
   height:90vh;
   background-color: #c6e1e5;
   border-bottom: 15px solid white;
+  min-height: 957px;
 }
 
 .examples-image {
@@ -1251,11 +1369,18 @@
 }
 /* examples-2 */
 
+.examples-2 {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
+
 .examples-2-container {
   position: relative;
   height:90vh;
   background-color: #c6e1e5;
   border-bottom: 15px solid white;
+  min-height: 957px;
 }
 
 .examples-2-image {
@@ -1342,6 +1467,11 @@
   background-image: url(images/services/1.png);
 }
 /* contacts */
+.contacts {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
 
 .contacts-img-container {
   position: relative;

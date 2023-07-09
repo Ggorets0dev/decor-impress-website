@@ -79,16 +79,16 @@ function App() {
 
   return (
       <div className="fixed-wrapper">
-        <div className="intro">
-        <div className="image-container" id="main">
+        <div className="intro fixed-container-1">
+        <div className="image-container  fixed-container-1" id="main">
           <img src={first_image} alt=""/>
           <p className="main-header main-header-1">Сделайте</p>
           <p className="main-header main-header-2">Ваш интерьер</p>
           <p className="main-header main-header-3">особенным!</p>
         </div>
         </div>
-  <div className="about-us" id="about">
-    <div className="second-image-container">
+  <div className="about-us fixed-container" id="about">
+    <div className="second-image-container fixed-container">
       <img src={about_image} alt=""/>
         <div className="second-text-container">
           <p>Итальянский бренд VALPAINT известен на рынке с 1988 года
@@ -106,8 +106,8 @@ function App() {
       <a href="#contacts" className="place-order-link"><button className="place-order-button">Сделать заказ</button></a>
     </div>
   </div>
-  <div className="catalogue" id="catalogue">
-    <div className="catalogue-img-container">
+  <div className="catalogue fixed-container" id="catalogue">
+    <div className="catalogue-img-container fixed-container">
       <img src={arteco_image} alt=""/>
         <div className="our-catalogue-text">
           Наш каталог
@@ -136,8 +136,8 @@ function App() {
         </div>
     </div>
   </div>
-  <div className="arteco1" id="arteco1">
-    <div className="arteco1-img-container">
+  <div className="arteco1 fixed-container" id="arteco1">
+    <div className="arteco1-img-container fixed-container">
       <img src={layout2} alt=""/>
         <div className="arteco1-left-up-image">
           <img src={artecoLogo} alt=""/>
@@ -164,8 +164,8 @@ function App() {
         </div>
     </div>
   </div>
-  <div className="arteco7" id="arteco7">
-    <div className="arteco7-img-container">
+  <div className="arteco7 fixed-container fixed-container" id="arteco7">
+    <div className="arteco7-img-container fixed-container">
       <img src={layout1} alt=""/>
         <div className="arteco7-first-image">
           <img src={arteco71} alt=""/>
@@ -198,8 +198,8 @@ function App() {
         </div>
     </div>
   </div>
-  <div className="klondike" id="klondike">
-    <div className="klondike-img-container">
+  <div className="klondike" id="klondike fixed-container">
+    <div className="klondike-img-container fixed-container">
       <img src={layout2} alt=""/>
         <div className="klondike-left-up-image">
           <img src={klondike2} alt=""/>
@@ -232,8 +232,8 @@ function App() {
         </div>
     </div>
   </div>
-        <div className="meteore8" id="meteore8">
-          <div className="meteore8-img-container">
+        <div className="meteore8 fixed-container" id="meteore8">
+          <div className="meteore8-img-container fixed-container">
             <img src={layout1} alt=""/>
             <div className="meteore8-first-image">
               <img src={meteore1} alt=""/>
@@ -278,8 +278,8 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="polistof" id="polistof">
-          <div className="polistof-img-container">
+        <div className="polistof fixed-container" id="polistof">
+          <div className="polistof-img-container fixed-container">
             <img src={layout3} alt=""/>
             <div className="polistof-left-up-image">
               <img src={polistofLogo} alt=""/>
@@ -318,8 +318,8 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="sabula2" id="sabula2">
-          <div className="sabula2-img-container">
+        <div className="sabula2 fixed-container" id="sabula2">
+          <div className="sabula2-img-container fixed-container">
             <img src={layout4} alt=""/>
             <div className="sabula2-first-image">
               <img src={sabulaLogo} alt=""/>
@@ -349,8 +349,8 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="sabulador" id="sabulador">
-          <div className="sabulador-img-container">
+        <div className="sabulador fixed-container" id="sabulador">
+          <div className="sabulador-img-container fixed-container">
             <img src={layout5} alt=""/>
             <div className="sabulador-first-image">
               <img src={sabuladorLogo} alt=""/>
@@ -380,8 +380,8 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="valpaintE" id="valpaintE">
-          <div className="valpaintE-img-container">
+        <div className="valpaintE fixed-container" id="valpaintE">
+          <div className="valpaintE-img-container fixed-container">
             <img src={layout1} alt=""/>
             <div className="valpaintE-first-image">
               <img src={valpaintELogo} alt=""/>
@@ -421,8 +421,8 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="valpaintI" id="valpaintI">
-          <div className="valpaintI-img-container">
+        <div className="valpaintI fixed-container" id="valpaintI">
+          <div className="valpaintI-img-container fixed-container">
             <img src={layout3} alt=""/>
             <div className="valpaintI-first-image">
               <img src={valpaintILogo} alt=""/>
@@ -449,8 +449,8 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="valrenna" id="valrenna">
-          <div className="valrenna-img-container">
+        <div className="valrenna fixed-container" id="valrenna">
+          <div className="valrenna-img-container fixed-container">
             <img src={layout1} alt=""/>
             <div className="valrenna-first-image">
               <img src={valrennaLogo} alt=""/>
@@ -489,8 +489,8 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="valrenna2" id="valrenna2">
-          <div className="valrenna2-img-container">
+        <div className="valrenna2 fixed-container" id="valrenna2">
+          <div className="valrenna2-img-container fixed-container">
             <img src={layout2} alt=""/>
             <div className="valrenna2-first-image">
               <img src={valrenna2Logo} alt=""/>
@@ -530,8 +530,8 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="valsetin" id="valsetin">
-          <div className="valsetin-img-container">
+        <div className="valsetin fixed-container" id="valsetin">
+          <div className="valsetin-img-container fixed-container">
             <img src={layout4} alt=""/>
             <div className="valsetin-first-image">
               <img src={valsetinLogo} alt=""/>
@@ -580,7 +580,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="services" id="services">
+        <div className="services  fixed-container" id="services">
           <div className="services-top">
             <div className="services-top-text">
               Услуги:
@@ -597,8 +597,8 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="examples" id="examples">
-          <div className="examples-container">
+        <div className="examples fixed-container" id="examples">
+          <div className="examples-container  fixed-container">
             <div className="examples-top-text">Примеры работ:</div>
             <div className="examples-image examples-image-1"/>
             <div className="examples-image examples-image-2"/>
@@ -612,8 +612,8 @@ function App() {
             <div className="examples-image examples-image-10"/>
           </div>
         </div>
-        <div className="examples-2">
-          <div className="examples-2-container">
+        <div className="examples-2 fixed-container">
+          <div className="examples-2-container fixed-container">
             <div className="examples-2-image examples-2-image-1"/>
             <div className="examples-2-image examples-2-image-2"/>
             <div className="examples-2-image examples-2-image-3"/>
@@ -623,8 +623,8 @@ function App() {
             <div className="examples-2-image-small examples-2-image-7"/>
           </div>
         </div>
-        <div className="contacts" id="contacts">
-          <div className="contacts-img-container">
+        <div className="contacts fixed-container" id="contacts">
+          <div className="contacts-img-container  fixed-container">
             <div className="contacts-side-container">
               <div className="contacts-text-container">
                 <p>
