@@ -1,0 +1,7 @@
+# This file lists the names of all files that the server can send from this folder
+# Files are added after cloning and are not stored in the repository
+
+
+SERVER WAITS AND SENDS:
+
+* Актуальные цены на продукцию Valpaint.pdf

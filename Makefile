@@ -9,15 +9,21 @@ install:
 
 # Create an optimized frontend build
 build:
-	@echo Frontend [React] assembly is started
+	@echo --Frontend-- assembly is started
 	cd client; yarn build
-	@echo Frontend [React] assembly is completed
+	@echo --Frontend-- assembly is completed
 
 # Archive all code for transfer
-archive:
-	@echo Archiving the transport application is started
+pack:
+	@echo Archiving the application is started
 	tar --exclude='./.git' --exclude='./node_modules' --exclude='./logs' --exclude='./decor-impress-code.tar' --exclude='./.gitignore' --exclude='./client/build' -cvf decor-impress-code.tar .
-	@echo Archiving the transport application is completed
+	@echo Archiving the application is completed
+
+# Unpacking all files upon arrival
+unpack:
+	@echo Unpacking the application is started
+	tar -xvf decor-impress-code.tar --overwrite
+	@echo Unpacking the application is completed
 
 # Delete frontend build, logs and dependencies
 reset:
