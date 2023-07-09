@@ -238,11 +238,11 @@
   position: relative;
   width: 100%;
   height: 90vh;
+  border-bottom: 10px solid white;
 }
 
 .arteco1-img-container {
   position: relative;
-  border-bottom: 10px solid white;
 }
 
 .arteco1-img-container img{
@@ -316,6 +316,7 @@
   position: relative;
   width: 100%;
   height: 90vh;
+  border-bottom: 10px solid white;
 }
 
 .arteco7-img-container {
@@ -394,6 +395,7 @@
   position: relative;
   width: 100%;
   height: 90vh;
+  border-bottom: 10px solid white;
 }
 
 .klondike-img-container {
@@ -472,6 +474,7 @@
   position: relative;
   width: 100%;
   height: 90vh;
+  border-bottom: 10px solid white;
 }
 
 .meteore8-img-container {

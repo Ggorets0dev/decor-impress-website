@@ -198,7 +198,7 @@ function App() {
         </div>
     </div>
   </div>
-  <div className="klondike" id="klondike fixed-container">
+  <div className="klondike fixed-container" id="klondike">
     <div className="klondike-img-container fixed-container">
       <img src={layout2} alt=""/>
         <div className="klondike-left-up-image">
