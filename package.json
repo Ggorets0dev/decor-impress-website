@@ -2,7 +2,7 @@
   "name": "decor-impress-website",
   "version": "1.0.0",
   "description": "Online business card site of Decor Impress company",
-  "main": "app.js",
+  "main": "entry.js",
   "type": "commonjs",
   "repository": {
     "type": "git",
