@@ -583,7 +583,7 @@ function App() {
         <div className="services  fixed-container" id="services">
           <div className="services-top">
             <div className="services-top-text">
-              Услуги:
+              Услуги
             </div>
             <div className="image-oval-2"/>
             <div className="image-oval-1"/>
@@ -599,7 +599,7 @@ function App() {
         </div>
         <div className="examples fixed-container" id="examples">
           <div className="examples-container  fixed-container">
-            <div className="examples-top-text">Примеры работ:</div>
+            <div className="examples-top-text">Наши работы</div>
             <div className="examples-image examples-image-1"/>
             <div className="examples-image examples-image-2"/>
             <div className="examples-image examples-image-3"/>
@@ -629,8 +629,8 @@ function App() {
               <div className="contacts-text-container">
                 <p>
                   <b>Электронная почта:</b><br/>
-                  decorimpress@yandex.ru<br/><br/>
-                  <b>Телефоны:</b><br/>
+                  orders@decor-impress.ru<br/><br/>
+                  <b>Телефон:</b><br/>
                   +7 (915) 348-20-30<br/>
                   +7 (936) 617-50-55
                 </p>
