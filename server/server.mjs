@@ -9,14 +9,13 @@ import { redirectPageNotExist } from './middlewares/redirectPageNotExist.mjs'
 dotenv.config()
 
 const PORT = process.env.PORT ?? 3000
-const STATIC_PATH = path.resolve(path.resolve(), 'client', 'build')
+const BUILD_PATH = path.resolve(path.resolve(), 'client', 'build')
 
 const app = express()
 
-app.use(accessRequestLog)
-
+app.get(['/', '/download'], accessRequestLog)
+app.use('/', express.static(BUILD_PATH))
 app.get('/download', downloadRouter)
-app.use(express.static(STATIC_PATH))
 app.use(redirectPageNotExist)
 
 app.use(errorRequestLog)
