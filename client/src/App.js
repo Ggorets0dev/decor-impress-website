@@ -112,10 +112,7 @@ function App() {
         <div className="our-catalogue-text">
           Наш каталог
         </div>
-        <div className="download-catalogue-container">
-          <div className="download-catalogue-text">Скачать полный каталог:</div>
           <button onClick={() => setState('downloading')} className="download-catalogue-button">Скачать</button>
-        </div>
         <div className="catalogue-names">
           <p className="catalogue-list-name">Каталог:</p><br/>
           <ul className="catalogue-list">
