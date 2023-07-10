@@ -103,8 +103,8 @@
 
 .second-text-container {
   position: absolute;
-  text-align: left;
-  top: 25%; /* Надо будет исправить и добавить position: relative */
+  text-align: justify;
+  top: 25%;
   left: 72%;
   max-width: 25%;
 
@@ -1178,6 +1178,8 @@
 
 .services-bottom-text {
   position: absolute;
+  text-align: justify;
+  max-width: 72%;
   top:18%;
   left:13%;
   font-family: 'Times New Roman', Times, serif;
