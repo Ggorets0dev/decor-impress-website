@@ -1,9 +1,7 @@
 import path from 'path'
 import { createLogger, format, transports } from 'winston'
 
-const __dirname = path.resolve()
-
-const logger = createLogger({
+export const logger = createLogger({
     transports: [
         new transports.Console({
             format:  format.combine(
@@ -14,7 +12,7 @@ const logger = createLogger({
         }),
         new transports.File({
             level: 'info',
-            filename: path.resolve(__dirname, 'logs', 'server.log')
+            filename: path.resolve(path.resolve(), 'logs', 'server.log')
         })
     ],
     format:  format.combine(
@@ -22,5 +20,3 @@ const logger = createLogger({
         format.printf(info => `[${info.timestamp}] ${info.level}: ${info.message}`)
     )
 })
-
-export default logger

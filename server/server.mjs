@@ -2,7 +2,7 @@ import express from 'express'
 import * as dotenv from 'dotenv'
 import * as path from 'path'
 import downloadRouter from './routes/download.mjs'
-import logger from './models/logger.mjs'
+import { logger } from './models/logger.mjs'
 import { accessRequestLog, errorRequestLog } from './middlewares/logRequests.mjs'
 import { redirectPageNotExist } from './middlewares/redirectPageNotExist.mjs'
 

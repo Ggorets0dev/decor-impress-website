@@ -35,7 +35,7 @@ To build an application, you must call the following in sequence (from root of p
 
   1) ```make install``` - Install all dependencies (General - Backend - Frontend)
 
-  2) ```make build``` - Creating an optimized frontend build
+  2) ```make build``` - Create an optimized frontend build
 
   3) ```yarn start``` - Start the server on a port from .env or 3000 by default
 
@@ -43,7 +43,7 @@ The following scripts may also be used *separately*:
 
 * ```make reset``` - Remove all dependencies and temporary files (roll everything back to clean code)
 
-* ```make pack/unpack``` - Pack / unpack the code into an archive for further transfer to the hosting via FTP
+* ```make pack/unpack``` - Pack/unpack the code into an archive for further transfer to the hosting via FTP
 
 
 ## Contributors

@@ -16,7 +16,7 @@ build:
 # Archive all code for transfer
 pack:
 	@echo Archiving the application is started
-	tar --exclude='./.git' --exclude='./node_modules' --exclude='./logs' --exclude='./decor-impress-code.tar' --exclude='./.gitignore' --exclude='./client/build' -cvf decor-impress-code.tar .
+	tar --exclude='./.git' --exclude='./.env' --exclude='./README.md' --exclude='./node_modules' --exclude='./logs' --exclude='./decor-impress-code.tar' --exclude='./.gitignore' --exclude='./client/build' -cvf decor-impress-code.tar .
 	@echo Archiving the application is completed
 
 # Unpacking all files upon arrival
