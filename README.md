@@ -45,7 +45,6 @@ The following scripts may also be used *separately*:
 
 * ```make pack/unpack``` - Pack/unpack the code into an archive for further transfer to the hosting via FTP
 
-
 ## Contributors
 
 | Nickname | Email | Execution area | Valid
@@ -54,3 +53,6 @@ The following scripts may also be used *separately*:
 | xandrozzz | evg.alexandrov95@gmail.com | Frontend (React) development | yes |
 | RobertDeveloperBlog | robert.askarov43@gmail.com | Initial development of the first few slides on pure HTML-CSS | no |
 
+## License
+
+Text of the license is provided in the LICENSE file. CC-BY-NC-ND-4.0 license prohibits derivative works from the source code of this repository and commercial use. The exclusive right to commercial use is granted to the owner of [Decor Impress](https://decor-impress.ru), for whom the site was custom made. The code is open ONLY for adding to the portfolios of developer-contributors for the purpose of further familiarization by employers.
